@@ -1,0 +1,33 @@
+body{
+    background-color: #ffffff;
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    font-family: "Poppins", sans-serif;
+    color: #949090;
+}
+.contactsbar{
+    background: inherit;
+    height: 40px;
+    
+}
+.sect1{
+    background-color: darkblue;
+    height: 1000px;
+    background-size: 100% 100%;
+    
+}
+.navi{
+    padding:20px 130px 20px 130px;
+}
+}
+//*.sect1 {
+    background-image: url("images/photo1.jpeg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }*//
