@@ -377,8 +377,10 @@ body {
 
 
 .section__main {
-  background: url('images/bg_top_photo1.jpg');
-  min-height: 700px;
+	background-image: url('images/bg_top_photo1.jpg');
+	min-height: 700px;
+	width: auto;
+	background-position: left;
 }
 
 .navigation--menu {
@@ -392,19 +394,20 @@ body {
   color: var(--sectionTitleColor);
   text-align: center;
   font-size: 2.5em;
-  font-weight: bold;
+	font-weight: bold;
+	margin: auto;
   margin-top: 12px;
-  margin-left: 250px;
-  margin-right: 250px;
 }
 
 .section--subtitle {
   font-size: 1.1em;
-  text-align: center;
-  margin-bottom: 3em;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+  color: #666666;
+  max-width: 670px;
+	margin-bottom: 3em;
+	margin: auto;
   margin-top: 12px;
-  margin-left: 250px;
-  margin-right: 250px;
 
 }
 
@@ -475,7 +478,7 @@ body {
   background-color: gray;
 
 }
-.donation.form__input{ 
+.form__input input{ 
   color: var(--primaryTextColor);
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
@@ -489,7 +492,7 @@ body {
 .form--donation .input-donate{
 	color: #ffffff;
 }
-.form--donation .btn--donateNow{
+.btn--donateNow{
 	height: 45px;
 }
 
@@ -513,7 +516,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0.75;
-  z-index: 2;
+  
 }
 
 .campaign .image img {
@@ -527,7 +530,7 @@ body {
   bottom: 0;
   width: 100%;
   padding: 30px;
-  z-index: 9;
+  
 }
 
 .campaign .content h3 {
@@ -562,6 +565,12 @@ body {
 	min-height: 450px;
 	color: #ffffff;
 	position: relative;
+}
+.section__contribiusion--icon{
+	font-size: 250px;
+	text-align: center;
+	display: block;
+	margin: auto;
 }
 .section__contribiusion h3 {
 	font-size: 22px;
@@ -606,4 +615,52 @@ body {
 	width: 16rem;;
 	height: 3.5rem;
 	font-size: 0.9rem;
+}
+.section__mission{
+	padding-top: 110px;
+	padding-bottom: 90px;
+}
+.row--mission{
+	align-items: center;
+}
+.mission-map{
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+}
+.mision-content{
+	margin-bottom: 30px;
+}
+.mision-content h5{
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #EF3345;
+	line-height: 18px;
+	font-weight: 600;
+}
+.mision-content h2{
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #191919;
+	line-height: 36px;
+	font-weight: 800;
+	margin-bottom: 24px;
+	}
+
+.mission-content p{
+	font-size: 18px;
+	margin-bottom: 26px;
+	line-height: 30px;
+}
+.mission-content h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #ef3345;
+	line-height: 28px;
+	font-weight: 800;
+	margin-bottom: 0;
 }
