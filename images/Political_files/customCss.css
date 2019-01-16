@@ -361,27 +361,6 @@ body {
   font-size: 16px;
 }
 
-.header--social a{
-	color: #ffffff;
-	margin: auto;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 14px;
-
-}
-
-.header--contact a{
-	color: #ffffff;
-	margin: auto;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 14px;
-}
-.container--navibar{
-	background-color: #ffffff;
-	height: 90px;
-	color: #666666;
-}
-
-
 .mb-30{
   margin-bottom: 30px;
 }
@@ -705,31 +684,29 @@ body {
 }
 .section__subscribe .container-subscribe .section--subtitle{
 	color: #ffffff;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .form--subscribe{
-	padding-left: 150px;
-	padding-right: 150px;
-	color: #ffffff;
-	padding-bottom: 30px;
+	padding-left: 1500px;
+	padding-right: 1500px;
 }
-.form--subscribe input{
-	color: #ffffff;
-}
+
 .btn--subscribe{
 	background-color: #EF3345;
   width: 100%;
 	color: var(--primaryTextColor);
-	height: 55px;
+	height: 50px;
 }
 
+.form--subscribe{
 
+}
 .form--subscribe input{
 	border: none;
   border-radius: 4px;
   width: 100%;
-	height: 55px;
+	height: 50px;
 	color: #ffffff;
 	background-color: #666666;
 	opacity: 0.4;
