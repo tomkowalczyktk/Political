@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -20,50 +22,70 @@
     <section class="section-header">
       <div class="header header--contactbar">
         <div class="container container--contactbar">
-          <div class="row row--contactsbar">
+          <div class="row row--contactbar">
             <div class="col">
               <div class="header-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-reddit-alien"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-reddit-alien"></i></a>
               </div>
             </div>
-            <div class="col ">
+            <div class="col col--contact ">
               <div class="header--contact">
-                <a href="#">phone:5161553262</a>
-                <a href="#">e-mail:politician@voteforme.com</a>
+                <a href="#"><i class="icon-phone mr-2"></i>phone:5161553262</a>
+                <a href="#"><i class="icon-envelope mr-2"></i> e-mail:politician@voteforme.com</a>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div class="header header-navbar header-sticky">
-        <div class="container">
+      <div class="header header-navbar header-sticky ">
+        <div class="container header__container--navbar">
           <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand " href="#">LOGO</a>
+            <a class="navbar-brand navbar-brand--logo" href="#">LOGO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              
-              <ul class="navbar-nav  ml-auto">
+              <ul class="navbar-nav navbar-nav--style ml-auto ">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CAMPAING</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CAMPAIGN
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">GALLERY</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"id="navbarDropdownMenuLink"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    GALLERY
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">NEWS</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"id="navbarDropdownMenuLink"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEWS</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">CONTACT</a>
@@ -71,8 +93,8 @@
                 <li class="nav-item">
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 ">
-                <button class="btn btn-success my-2 my-sm-0" type="submit">Donate Now</button>
+              <form class="form-inline my-2 my-lg-0">
+                <button class="btn navbar__btn--donate my-2 my-sm-0" type="submit">DONATE NOW</button>
               </form>
             </div>
           </nav>

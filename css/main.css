@@ -22,61 +22,34 @@ body {
 .header-social a {
   color: #ffffff;
   margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 14px;
-  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  padding-right: 10px;
 
 }
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+.header--contactbar{
+  height: 45px;
+  padding-top: 5px;
 }
 
 
-.fa-facebook-f:before,
-.fa-facebook:before {
-  content: "\f09a";
+.col--contact{
+  text-align: right;
 }
-
-.fa-twitter:before {
-  content: "\f099";
+.header__container--navbar{
+  padding-left: 0px;
+  padding-right: 0px;
 }
-
-.fa-instagram:before {
-  content: "\f16d";
-}
-
-.fa-pinterest-p:before {
-  content: "\f231";
-}
-
-.fa-google-plus:before {
-  content: "\f0d5";
-}
-
-.fa-reddit-alien:before {
-  content: "\f281";
-}
-
 .header--contact a {
   color: #ffffff;
   margin: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 14px;
+  margin-left: 20px; 
 }
-
-.container-navibar {
-  background-color: #ffffff;
-  height: 90px;
-  display: flex;
-  margin-left: 0px;
-  margin-right: 0px;
-  color: #666666;
-  align-items: center;
+.header--contact a i{
+  font-weight: 700;
 }
 
 input::placeholder {
@@ -112,7 +85,18 @@ input::placeholder {
   background: white;
 
 }
-
+.header-navbar{
+  height: 90px;
+  background-color: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  padding-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+}
 .container-navbar {
   height: 100px;
   text-align: center;
@@ -120,8 +104,47 @@ input::placeholder {
   display: block;
 }
 
+
 .container-navbar .navbar {
+  height: 90px;
   background-color: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+}
+
+.navbar-brand.navbar-brand--logo{
+  color: #EF3345;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.navbar-nav--style{
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .nav-item{
+  margin-left: 25px;
+
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navbar-light .navbar-nav .nav-item:hover .nav-link,
+.navbar-light .navbar-nav .show .nav-item .nav-link:hover .dropdown-menu .dropdown-item
+{
+  color: #EF3345;
+
+}
+.navbar__btn--donate{
+  background-color: #EF3345;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 .section--title {
@@ -330,7 +353,7 @@ nav .navbar {
   position: absolute;
   font-size: 150px;
   top: 150px;
-  opacity: 0.1;
+  opacity: 0.2;
   left:100px;
 }
 
