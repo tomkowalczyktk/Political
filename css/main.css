@@ -16,6 +16,7 @@ body {
   padding: 0;
   color: var(--color);
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -539,4 +540,67 @@ nav .navbar {
   text-rendering: auto;
   position: relative;
   justify-content: center;
+}
+.container-news{
+  margin-bottom: 80px;
+  text-align: center;
+
+}
+.card{
+  border: none;
+}
+.news__card{
+  margin-bottom: 50px;
+  padding-left: 0px;
+}
+.card-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.card-title{
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 30px; 
+  color: #404040; 
+}
+.card-text{
+display: block;
+color: #666666;
+margin-bottom: 20px;
+font-family:"Poppins", sans-serif;
+font-size:14px;
+font-style:normal;
+font-weight:400;
+height:72px;
+line-height:24px;
+margin-block-end:20px;
+margin-block-start:0px;
+margin-bottom:20px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-top:0px;
+text-align:left;
+}
+.meta{
+  margin-bottom: 20px;
+}
+.meta-item{
+  color: #666666;
+  margin-right: 6px;
+  font-size: 13px;
+}
+.btn.btn-sm {
+  padding: 8px 20px;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  
+}
+.card__btn{
+  background-color: #ef3345;
+  color: #ffffff;
 }
