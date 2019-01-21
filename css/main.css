@@ -391,27 +391,30 @@ nav .navbar {
 }
 
 .contr {
-  font-size: 95px;
+  width: 100%;
+  font-size: 4rem;
   font-weight: 900;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: block;
   text-align: center;
+  line-height: 2;
+  margin: auto;
+
 }
 
 .btn--volunteer {
-  color: var(--primaryTextColor);
+  color: #ffffff;
   padding: 0.5em 2em;
   display: block;
   margin: auto;
 }
 
-.btn--volunteer button {
+.btn--volunteer {
   background-color: black;
   border: none;
   border-radius: 4px;
   color: #ffffff;
   width: 16rem;
-  ;
   height: 3.5rem;
   font-size: 0.9rem;
 }
@@ -507,6 +510,8 @@ nav .navbar {
 }
 
 .form--subscribe {
+  display: inline-flex;
+  flex-wrap: wrap;
   padding-left: 150px;
   padding-right: 150px;
   color: #ffffff;
@@ -517,13 +522,14 @@ nav .navbar {
 .form--subscribe .input--field {
   border: none;
   border-radius: 4px;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-
-  text-align: center;
-  text-rendering: auto;
-  display: flex;
+  width: 520px;
   height: 55px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;  
+  display: inline-flex;
+  padding: 15px 30px;
   color: #ffffff;
   background-color: rgba(94, 97, 100, 0.4);
   margin-bottom: 10px;
@@ -531,14 +537,20 @@ nav .navbar {
 }
 
 .btn--subscribe {
-  background-color: #EF3345;
+  display: inline-flex;
+  padding: 15px 45px;
+  height: 55px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   text-align: center;
-  color: var(--primaryTextColor);
-  height: 55px;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #EF3345;
   text-rendering: auto;
   position: relative;
+  margin-left: 30px;
   justify-content: center;
 }
 .container-news{
