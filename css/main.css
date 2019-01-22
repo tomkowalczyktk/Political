@@ -52,6 +52,16 @@ body {
 .header--contact a i{
   font-weight: 700;
 }
+.header-social a:hover{
+  color: #EF3345;
+}
+.header--contact a :hover{
+  color: #EF3345;
+}
+.header--contact a :focus:active{
+  color: #EF3345;
+  text-decoration: none;
+}
 
 input::placeholder {
   opacity: 1;
@@ -147,7 +157,15 @@ input::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
-
+.navbar__btn--donate:active:focus:hover{
+  background-color: #000000;
+  border: none;
+}
+.header__container--navbar .navbar__btn--donate:hover{
+  background-color: #000000;
+  color: #ffffff;
+  border:none;
+}
 .section--title {
   color: var(--sectionTitleColor);
   text-align: center;
@@ -220,7 +238,9 @@ nav .navbar {
   margin: auto;
   margin-bottom: 2em;
 }
-
+.feature i:hover{
+  background-color: #000000;
+}
 
 .feature--title {
   font-size: 1.3em;
@@ -418,8 +438,9 @@ nav .navbar {
   height: 3.5rem;
   font-size: 0.9rem;
 }
-.btn--volunteer :hover{
+.btn--volunteer :active,:focus,:hover{
   background-color: #ec1026;
+  border: none;
   
 }
 .section__mission {
@@ -513,11 +534,9 @@ nav .navbar {
 }
 
 .form--subscribe {
-  position: relative;
-  display: inline-flex;
-  flex-wrap: wrap;
-  padding-left: 150px;
-  padding-right: 150px;
+  
+  align-items: left;
+  display: block;
   color: #ffffff;
   padding-bottom: 30px;
   align-content: flex-start;
@@ -528,23 +547,23 @@ nav .navbar {
   position: relative;
   border: none;
   border-radius: 4px;
-  width: 32.5rem;
+  width: 100%;
   height: 55px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   font-size: 14px;
   font-weight: 600;  
-  display: inline-flex;
+  display: block;
+  min-width: 250px;
   padding: 15px 30px;
   color: #ffffff;
   background-color: rgba(94, 97, 100, 0.4);
   margin-bottom: 10px;
-
 }
 
 .btn--subscribe {
-  display: inline-flex;
-  padding: 15px 45px;
+  display:inline-block;
+  
   height: 55px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
@@ -556,7 +575,6 @@ nav .navbar {
   background-color: #EF3345;
   text-rendering: auto;
   position: relative;
-  margin-left: 30px;
   justify-content: center;
 }
 .container-news{
@@ -566,6 +584,7 @@ nav .navbar {
 }
 .card{
   border: none;
+  display: block;
 }
 .news__card{
   margin-bottom: 50px;
@@ -590,7 +609,7 @@ font-family:"Poppins", sans-serif;
 font-size:14px;
 font-style:normal;
 font-weight:400;
-height:72px;
+height:100%;
 line-height:24px;
 margin-block-end:20px;
 margin-block-start:0px;
@@ -616,11 +635,20 @@ text-align:left;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #ffffff;
-  
+  display: inline;
 }
 .card__btn{
   background-color: #ef3345;
   color: #ffffff;
+  position: relative;
+}
+.card__btn:active:focus:hover{
+  background-color: #000000;
+  border: none;
+}
+.news__card a:hover{
+  background-color: #000000;
+  border:none;
 }
 .section-footer__top{
   background-color: rgb(8, 8, 51);
