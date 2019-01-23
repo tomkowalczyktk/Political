@@ -20,6 +20,16 @@ body {
 
 }
 
+/*section.section--only {
+  display: block;
+}
+
+section:not(.section--only) {
+  display: none;
+}*/
+
+
+
 .header-social a {
   color: #ffffff;
   margin: auto;
@@ -438,7 +448,7 @@ nav .navbar {
   height: 3.5rem;
   font-size: 0.9rem;
 }
-.btn--volunteer :active,:focus,:hover{
+.btn--volunteer:active,.btn--volunteer:focus,.btn--volunteer:hover{
   background-color: #ec1026;
   border: none;
   
@@ -734,5 +744,5 @@ text-align:left;
   color: #ffffff;
   text-align: center;
   height: 42px;
-  padding-top: 10px;
+  padding: 10px 0;
 }
