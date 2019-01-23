@@ -437,10 +437,17 @@ nav .navbar {
   width: 16rem;
   height: 3.5rem;
   font-size: 0.9rem;
+  transition-property: background; 
+  transition-duration: left;
+  transition: color 3s ease-in-out;
+  
 }
-.btn--volunteer :active,:focus,:hover{
-  background-color: #ec1026;
+.btn--volunteer :active,.btn--volunteer:focus, .btn--volunteer:hover{
+  background-color: #EF3345;
+  width: 16rem;
+  height: 3.5rem;
   border: none;
+  
   
 }
 .section__mission {
