@@ -20,6 +20,16 @@ body {
 
 }
 
+/*section.section--only {
+  display: block;
+}
+
+section:not(.section--only) {
+  display: none;
+}*/
+
+
+
 .header-social a {
   color: #ffffff;
   margin: auto;
@@ -442,10 +452,15 @@ nav .navbar {
   transition: color 3s ease-in-out;
   
 }
+<<<<<<< HEAD
 .btn--volunteer :active,.btn--volunteer:focus, .btn--volunteer:hover{
   background-color: #EF3345;
   width: 16rem;
   height: 3.5rem;
+=======
+.btn--volunteer:active,.btn--volunteer:focus,.btn--volunteer:hover{
+  background-color: #ec1026;
+>>>>>>> 5e93d6bb38305d8483c2dca67f2f6e144c3f0f90
   border: none;
   
   
@@ -740,6 +755,5 @@ text-align:left;
   background-color: #EF3345;
   color: #ffffff;
   text-align: center;
-  height: 42px;
-  padding-top: 10px;
+  padding: 10px 0;
 }
