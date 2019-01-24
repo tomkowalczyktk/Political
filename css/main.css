@@ -176,7 +176,7 @@ input::placeholder {
   color: #ffffff;
   border:none;
 }
-.section--title {
+.section__title {
   color: var(--sectionTitleColor);
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -187,7 +187,7 @@ input::placeholder {
 
 }
 
-.section--subtitle {
+.section__subtitle {
   font-size: 1.1em;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -285,11 +285,11 @@ nav .navbar {
   z-index: -1;
 }
 
-.container--donation .section--title {
+.container--donation .section__title {
   color: #ffffff;
 }
 
-.container--donation .section--subtitle {
+.container--donation .section__subtitle {
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -452,15 +452,8 @@ nav .navbar {
   transition: color 3s ease-in-out;
   
 }
-<<<<<<< HEAD
-.btn--volunteer :active,.btn--volunteer:focus, .btn--volunteer:hover{
-  background-color: #EF3345;
-  width: 16rem;
-  height: 3.5rem;
-=======
 .btn--volunteer:active,.btn--volunteer:focus,.btn--volunteer:hover{
   background-color: #ec1026;
->>>>>>> 5e93d6bb38305d8483c2dca67f2f6e144c3f0f90
   border: none;
   
   
@@ -544,13 +537,13 @@ nav .navbar {
   z-index: 1;
 }
 
-.section__subscribe .container-subscribe .section--title {
+.section__subscribe .container-subscribe .section__title {
   color: #ffffff;
   padding-top: 60px;
   padding-bottom: 16px;
 }
 
-.section__subscribe .container-subscribe .section--subtitle {
+.section__subscribe .container-subscribe .section__subtitle {
   color: #ffffff;
   padding-bottom: 60px;
 }
@@ -755,5 +748,7 @@ text-align:left;
   background-color: #EF3345;
   color: #ffffff;
   text-align: center;
-  padding: 10px 0;
+  height: 60px;
+  padding-top: 15px;
+  margin-bottom: 0px;
 }
