@@ -1,0 +1,17 @@
+.btn {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  &:hover {
+    opacity: 0.6;
+  }
+  &.btn--primary {
+    background-color: blue;
+    color: white;
+  }
+  &.btn--cta {
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+  }
+}
