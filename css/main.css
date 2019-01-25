@@ -752,3 +752,11 @@ text-align:left;
   padding-top: 15px;
   margin-bottom: 0px;
 }
+
+.hm-item {
+  border: 1px solid blue;
+}
+
+.hm-item:hover {
+  border: 1px solid blue;
+}
