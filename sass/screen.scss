@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
 
-    .header--contactbar{
+    .header-contactbar{
         height: 45px;
         padding-top: 5px;
         
@@ -26,35 +26,77 @@
                 color: #EF3345;
             }
         }
-        .header--contact a {
-            color: #ffffff;
-            margin: auto;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 14px;
-            margin-left: 20px; 
-            :hover{
-                color: #EF3345;
+        .header-contact {
+            a {
+                color: #ffffff;
+                margin: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 14px;
+                margin-left: 20px; 
+                :hover{
+                    color: #EF3345;
+                }
+                :focus:active{
+                    color: #EF3345;
+                    text-decoration: none;
+                }
             }
-            :focus:active{
-                color: #EF3345;
-                text-decoration: none;
+             a i{
+            font-weight: 700;
             }
-        }
-        .header--contact a i{
-        font-weight: 700;
         }
               
          
     }
 }
 
-.header-social a:hover{
-    color: #EF3345;
-  }
-  .header--contact a :hover{
-    color: #EF3345;
-  }
-  .header--contact a :focus:active{
-    color: #EF3345;
-    text-decoration: none;
-  }
+.header-navbar{
+    height: 90px;
+    background-color: #ffffff;
+    line-height: 24px;
+    font-size: 14px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    font-family: "Poppins", sans-serif;
+    color: #666666;
+
+   
+    .navbar{
+        background-color: #ffffff;
+
+        .navbar-brand.navbar-brand--logo{
+            color: #EF3345;
+            font-size: 45px;
+            font-weight: 900;
+        }
+
+        ul{
+            margin-left: auto;
+            font-weight: 600;
+            font-family: "Montserrat", sans-serif;
+            li{
+                margin-left:25px;
+                 :hover :focus {
+                    color: #EF3345;
+                    
+                }
+                a.dropdown-menu.dropdown-item{
+                    transition: transform 1.5s ease-in, color 0.2 ease-in-out;
+                }
+                :hover .dropdown-item:hover{
+                    transform:translateX(5px);
+                    overflow:hidden;
+                    color: #EF3345;
+                    background-color:transparent;
+                }
+                
+
+                
+
+            }
+        }
+
+    }
+}
