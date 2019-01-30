@@ -91,7 +91,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .section-header .header-contactbar .header-social a :hover {
   color: #EF3345;
 }
-/* line 30, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact {
+  float: right;
+}
+/* line 31, ../sass/screen.scss */
 .section-header .header-contactbar .header-contact a {
   color: #ffffff;
   margin: auto;
@@ -99,21 +103,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
   margin-left: 20px;
 }
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .section-header .header-contactbar .header-contact a :hover {
   color: #EF3345;
 }
-/* line 39, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .section-header .header-contactbar .header-contact a :focus:active {
   color: #EF3345;
   text-decoration: none;
 }
-/* line 44, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .section-header .header-contactbar .header-contact a i {
   font-weight: 700;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .header-navbar {
   height: 90px;
   background-color: #ffffff;
@@ -126,38 +130,92 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Poppins", sans-serif;
   color: #666666;
 }
-/* line 66, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
+.header-navbar .header__container--navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 73, ../sass/screen.scss */
 .header-navbar .navbar {
   background-color: #ffffff;
+  float: right;
 }
-/* line 69, ../sass/screen.scss */
-.header-navbar .navbar .navbar-brand.navbar-brand--logo {
+/* line 77, ../sass/screen.scss */
+.header-navbar .navbar .navbar-brand--logo {
   color: #EF3345;
   font-size: 45px;
   font-weight: 900;
+  margin-right: 200px;
 }
-/* line 75, ../sass/screen.scss */
-.header-navbar .navbar ul {
+/* line 85, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav ul {
   margin-left: auto;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
-/* line 79, ../sass/screen.scss */
-.header-navbar .navbar ul li {
+/* line 91, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li {
   margin-left: 25px;
 }
-/* line 81, ../sass/screen.scss */
-.header-navbar .navbar ul li :hover :focus {
+/* line 95, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li a:hover:focus:active .nav-itema {
   color: #EF3345;
 }
-/* line 85, ../sass/screen.scss */
-.header-navbar .navbar ul li a.dropdown-menu.dropdown-item {
+/* line 99, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li a.dropdown-menu.dropdown-item {
   transition: transform 1.5s ease-in, color 0.2 ease-in-out;
 }
-/* line 88, ../sass/screen.scss */
-.header-navbar .navbar ul li :hover .dropdown-item:hover {
+/* line 102, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li :hover {
+  color: #EF3345;
+}
+/* line 105, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li :hover.dropdown-item:hover {
   transform: translateX(5px);
   overflow: hidden;
   color: #EF3345;
   background-color: transparent;
+}
+/* line 115, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li.active a {
+  color: #EF3345;
+}
+/* line 120, ../sass/screen.scss */
+.header-navbar .navbar form {
+  margin-left: 20px;
+  background-color: #EF3345;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+}
+/* line 130, ../sass/screen.scss */
+.header-navbar .navbar form .navbar__btn--donate {
+  position: relative;
+  color: #ffffff;
+  font-size: inherit;
+  border-style: inherit;
+  font-family: inherit;
+  display: inherit;
+}
+/* line 140, ../sass/screen.scss */
+.header-navbar .navbar form:before {
+  content: "";
+  width: 0;
+  background-color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 5px;
+  position: absolute;
+  transition: all 1.5s ease;
+}
+/* line 152, ../sass/screen.scss */
+.header-navbar .navbar form:hover:before {
+  background-color: #000000;
+  width: 100%;
+  transition: all 2s ease;
 }
