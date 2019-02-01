@@ -17,7 +17,7 @@ body {
   color: var(--color);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-
+  width: 100%;
 }
 
 /*section.section--only {
@@ -62,125 +62,6 @@ section:not(.section--only) {
 }
 
 
-
-
-
-.section__title {
-  color: var(--sectionTitleColor);
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 2.5em;
-  font-weight: bold;
-  margin: auto;
-  margin-top: 30px;
-
-}
-
-.section__subtitle {
-  font-size: 1.1em;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #666666;
-  max-width: 670px;
-  margin-bottom: 3em;
-  margin: auto;
-  margin-top: 12px;
-
-}
-
-.header-navbar {
-  background-color: #ffffff;
-}
-
-nav .navbar {
-  background-color: #ffffff;
-  padding-left: 0px;
-}
-
-.row--navbar {
-  background-color: #ffffff;
-  padding-left: 140px;
-  padding-right: 100px;
-}
-
-.container-navbar .navbar lu li {
-  background-color: #ffffff;
-  align-content: flex-end;
-  align-content: center;
-
-}
-
-.navigation {
-  background-color: #fff;
-  height: 100px;
-}
-
-.navigation--bar {
-  color: var(--primaryTextColor);
-}
-
-.feature {
-  text-align: center;
-}
-
-
-.feature--title {
-  font-size: 1.3em;
-  font-weight: bold;
-  margin-bottom: 1.2em;
-}
-
-
-
-.section__donation {
-  background-color: #404040;
-  background-image: url("../images/donation-bg.jpg");
-  min-height: 450px;
-  color: #ffffff;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-
-}
-
-.section__donation::before {
-  background-color: #000000;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  z-index: -1;
-}
-
-.container--donation .section__title {
-  color: #ffffff;
-}
-
-.container--donation .section__subtitle {
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-
-.container--donation .form--donation input {
-  color: var(--primaryTextColor);
-  background-color: rgba(0, 0, 0, 0.4);
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  height: 45px;
-  z-index: 1;
-  margin-bottom: 2px;
-}
-
-.btn--donateNow {
-  background-color: #EF3345;
-  width: 100%;
-  height: 45px;
-  color: var(--primaryTextColor);
-}
 
 .campaign {
   position: relative;

@@ -67,18 +67,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 1, ../sass/components/_section-header.scss */
 .section-header {
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 13, ../sass/screen.scss */
+/* line 6, ../sass/components/_section-header.scss */
 .section-header .header-contactbar {
   height: 45px;
   padding-top: 5px;
 }
-/* line 18, ../sass/screen.scss */
+/* line 13, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-social a {
   color: #ffffff;
   margin: auto;
@@ -87,15 +87,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 35px;
   padding-right: 10px;
 }
-/* line 25, ../sass/screen.scss */
-.section-header .header-contactbar .header-social a :hover {
+/* line 20, ../sass/components/_section-header.scss */
+.section-header .header-contactbar .header-social a:hover {
   color: #EF3345;
 }
-/* line 29, ../sass/screen.scss */
+/* line 25, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact {
   float: right;
 }
-/* line 31, ../sass/screen.scss */
+/* line 27, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a {
   color: #ffffff;
   margin: auto;
@@ -103,23 +103,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
   margin-left: 20px;
 }
-/* line 37, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a :hover {
+/* line 33, ../sass/components/_section-header.scss */
+.section-header .header-contactbar .header-contact a:hover {
   color: #EF3345;
 }
-/* line 40, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a :focus:active {
+/* line 36, ../sass/components/_section-header.scss */
+.section-header .header-contactbar .header-contact a:focus:active {
   color: #EF3345;
   text-decoration: none;
 }
-/* line 45, ../sass/screen.scss */
+/* line 40, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a i {
   font-weight: 700;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 1, ../sass/components/_header-navbar.scss */
 .header-navbar {
-  height: 90px;
+  height: 100px;
   background-color: #ffffff;
   line-height: 24px;
   font-size: 14px;
@@ -130,57 +130,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Poppins", sans-serif;
   color: #666666;
 }
-/* line 65, ../sass/screen.scss */
+/* line 12, ../sass/components/_header-navbar.scss */
 .header-navbar .header__container--navbar {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 17, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar {
   background-color: #ffffff;
   float: right;
 }
-/* line 77, ../sass/screen.scss */
+/* line 21, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-brand--logo {
   color: #EF3345;
   font-size: 45px;
   font-weight: 900;
   margin-right: 200px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 29, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav ul {
   margin-left: auto;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
-/* line 91, ../sass/screen.scss */
+/* line 35, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li {
   margin-left: 25px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 40, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li a:hover:focus:active .nav-itema {
   color: #EF3345;
 }
-/* line 99, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li a.dropdown-menu.dropdown-item {
+/* line 44, ../sass/components/_header-navbar.scss */
+.header-navbar .navbar .navbar-nav li a .dropdown-menu.dropdown-item {
   transition: transform 1.5s ease-in, color 0.2 ease-in-out;
 }
-/* line 102, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li :hover {
+/* line 49, ../sass/components/_header-navbar.scss */
+.header-navbar .navbar .navbar-nav li a:hover {
   color: #EF3345;
 }
-/* line 105, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li :hover.dropdown-item:hover {
+/* line 52, ../sass/components/_header-navbar.scss */
+.header-navbar .navbar .navbar-nav li a:hover.dropdown-item:hover {
   transform: translateX(5px);
   overflow: hidden;
   color: #EF3345;
   background-color: transparent;
 }
-/* line 115, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li.active a {
+/* line 61, ../sass/components/_header-navbar.scss */
+.header-navbar .navbar .navbar-nav .active a {
   color: #EF3345;
 }
-/* line 120, ../sass/screen.scss */
+/* line 67, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form {
   margin-left: 20px;
   background-color: #EF3345;
@@ -192,7 +192,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   border-radius: 5px;
 }
-/* line 130, ../sass/screen.scss */
+/* line 77, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form .navbar__btn--donate {
   position: relative;
   color: #ffffff;
@@ -201,7 +201,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: inherit;
   display: inherit;
 }
-/* line 140, ../sass/screen.scss */
+/* line 86, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form:before {
   content: "";
   width: 0;
@@ -213,18 +213,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   transition: all 1.5s ease;
 }
-/* line 152, ../sass/screen.scss */
+/* line 97, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form:hover:before {
   background-color: #000000;
   width: 100%;
   transition: all 2s ease;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 1, ../sass/components/_feature.scss */
 .feature {
   text-align: center;
 }
-/* line 167, ../sass/screen.scss */
+/* line 4, ../sass/components/_feature.scss */
 .feature i {
   height: 80px;
   width: 80px;
@@ -237,37 +237,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 50%;
   background-color: var(--primaryColor);
   margin: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  transition: background-color 0.5s ease-in-out 3s;
 }
-/* line 181, ../sass/screen.scss */
+/* line 19, ../sass/components/_feature.scss */
 .feature i:hover {
   background-color: #04072e;
+  transition: 1s ease-in-out;
 }
-/* line 187, ../sass/screen.scss */
-.feature .sliding-slashes {
-  height: 100px;
-  width: 100px;
+/* line 24, ../sass/components/_feature.scss */
+.feature i .sliding-slashes {
+  height: 100%;
+  width: 100%;
   display: block;
   align-content: center;
-  position: relative;
-  left: 148px;
-  top: 125px;
-  margin-right: 0px;
+  position: absolute;
+  left: 50%;
+  top: -35%;
   background: transparent;
   transform: rotate(-45deg);
+  z-index: -1;
 }
-/* line 201, ../sass/screen.scss */
-.feature .body1 {
+/* line 38, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body1 {
   height: 2px;
   width: 0px;
   margin-bottom: 5px;
   background-color: #04072e;
   border: none;
   opacity: 0.9;
-  transition: width 2s ease-in-out 2s;
+  transition: width 1s ease-in-out 2s;
 }
-/* line 211, ../sass/screen.scss */
-.feature .body2 {
+/* line 48, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body2 {
   height: 2px;
   width: 0px;
   margin-bottom: 5px;
@@ -275,32 +277,141 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #04072e;
   border: none;
   opacity: 0.9;
-  transition: width 2s ease 1.5s;
+  transition: width 1s ease-in-out 1.5s;
 }
-/* line 222, ../sass/screen.scss */
-.feature .body3 {
+/* line 59, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body3 {
   height: 2px;
   width: 0px;
   background-color: #04072e;
   border: none;
   opacity: 0.9;
-  transition: 2s ease 0.5s;
+  transition: 1s ease-in-out 0.5s;
 }
-
-/* line 234, ../sass/screen.scss */
-:hover .body1 {
+/* line 69, ../sass/components/_feature.scss */
+.feature i:hover .body1 {
   width: 115px;
   transition: 2s ease 0.5s;
 }
-
-/* line 237, ../sass/screen.scss */
-:hover .body2 {
+/* line 73, ../sass/components/_feature.scss */
+.feature i:hover .body2 {
   width: 115px;
   transition: 2s ease 1.5s;
 }
-
-/* line 240, ../sass/screen.scss */
-:hover .body3 {
+/* line 77, ../sass/components/_feature.scss */
+.feature i:hover .body3 {
   width: 115px;
   transition: 1s ease 2s;
+}
+/* line 83, ../sass/components/_feature.scss */
+.feature .feature--title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
+/* line 89, ../sass/components/_feature.scss */
+.feature .feature--desc {
+  margin-bottom: 2em;
+}
+
+/* line 1, ../sass/components/_section__statement.scss */
+.section__statement {
+  padding-top: 1.5 em;
+  padding-bottom: 1.5 em;
+}
+/* line 4, ../sass/components/_section__statement.scss */
+.section__statement .container-statement {
+  margin-bottom: 2em;
+  padding-top: 2em;
+}
+/* line 8, ../sass/components/_section__statement.scss */
+.section__statement .container-statement .section__title {
+  color: var(--sectionTitleColor);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+}
+/* line 18, ../sass/components/_section__statement.scss */
+.section__statement .container-statement .section__subtitle {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  max-width: 670px;
+  margin-bottom: 3em;
+  margin: auto;
+  margin-top: 12px;
+}
+
+/* line 1, ../sass/components/_section__donation.scss */
+.section__donation {
+  background-color: #404040;
+  background-image: url("../images/donation-bg.jpg");
+  min-height: 450px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+/* line 12, ../sass/components/_section__donation.scss */
+.section__donation::before {
+  background-color: #000000;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+/* line 24, ../sass/components/_section__donation.scss */
+.section__donation .container--donation .section__title {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+}
+/* line 33, ../sass/components/_section__donation.scss */
+.section__donation .container--donation .section__subtitle {
+  color: #ffffff;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 670px;
+  margin-bottom: 3em;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+/* line 45, ../sass/components/_section__donation.scss */
+.section__donation .container--donation .form--donation input {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 45px;
+  z-index: 1;
+  margin-bottom: 2px;
+}
+/* line 54, ../sass/components/_section__donation.scss */
+.section__donation .container--donation .form--donation input placeholder {
+  color: #ffffff;
+}
+/* line 58, ../sass/components/_section__donation.scss */
+.section__donation .container--donation .form--donation .btn--donateNow {
+  background-color: #EF3345;
+  width: 100%;
+  height: 45px;
+  color: var(--primaryTextColor);
 }
