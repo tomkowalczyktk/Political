@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,207 +24,54 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
-.section-header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-/* line 13, ../sass/screen.scss */
-.section-header .header-contactbar {
-  height: 45px;
-  padding-top: 5px;
-}
-/* line 18, ../sass/screen.scss */
-.section-header .header-contactbar .header-social a {
-  color: #ffffff;
-  margin: auto;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 35px;
-  padding-right: 10px;
-}
-/* line 25, ../sass/screen.scss */
-.section-header .header-contactbar .header-social a :hover {
-  color: #EF3345;
-}
-/* line 29, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact {
-  float: right;
-}
-/* line 31, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a {
-  color: #ffffff;
-  margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 14px;
-  margin-left: 20px;
-}
-/* line 37, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a :hover {
-  color: #EF3345;
-}
-/* line 40, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a :focus:active {
-  color: #EF3345;
-  text-decoration: none;
-}
-/* line 45, ../sass/screen.scss */
-.section-header .header-contactbar .header-contact a i {
-  font-weight: 700;
-}
-
-/* line 54, ../sass/screen.scss */
-.header-navbar {
-  height: 90px;
-  background-color: #ffffff;
-  line-height: 24px;
-  font-size: 14px;
-  padding-top: 18px;
-  font-style: normal;
-  font-weight: normal;
-  visibility: visible;
-  font-family: "Poppins", sans-serif;
-  color: #666666;
-}
-/* line 65, ../sass/screen.scss */
-.header-navbar .header__container--navbar {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-/* line 73, ../sass/screen.scss */
-.header-navbar .navbar {
-  background-color: #ffffff;
-  float: right;
-}
-/* line 77, ../sass/screen.scss */
-.header-navbar .navbar .navbar-brand--logo {
-  color: #EF3345;
-  font-size: 45px;
-  font-weight: 900;
-  margin-right: 200px;
-}
-/* line 85, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav ul {
-  margin-left: auto;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-/* line 91, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li {
-  margin-left: 25px;
-}
-/* line 95, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li a:hover:focus:active .nav-itema {
-  color: #EF3345;
-}
-/* line 99, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li a.dropdown-menu.dropdown-item {
-  transition: transform 1.5s ease-in, color 0.2 ease-in-out;
-}
-/* line 102, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li :hover {
-  color: #EF3345;
-}
-/* line 105, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li :hover.dropdown-item:hover {
-  transform: translateX(5px);
-  overflow: hidden;
-  color: #EF3345;
-  background-color: transparent;
-}
-/* line 115, ../sass/screen.scss */
-.header-navbar .navbar .navbar-nav li.active a {
-  color: #EF3345;
-}
-/* line 120, ../sass/screen.scss */
-.header-navbar .navbar form {
-  margin-left: 20px;
-  background-color: #EF3345;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  position: relative;
-  display: inline-block;
-  border-radius: 5px;
-}
-/* line 130, ../sass/screen.scss */
-.header-navbar .navbar form .navbar__btn--donate {
-  position: relative;
-  color: #ffffff;
-  font-size: inherit;
-  border-style: inherit;
-  font-family: inherit;
-  display: inherit;
-}
-/* line 140, ../sass/screen.scss */
-.header-navbar .navbar form:before {
-  content: "";
-  width: 0;
-  background-color: black;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  border-radius: 5px;
-  position: absolute;
-  transition: all 1.5s ease;
-}
-/* line 152, ../sass/screen.scss */
-.header-navbar .navbar form:hover:before {
-  background-color: #000000;
-  width: 100%;
-  transition: all 2s ease;
-}
-
-/* line 164, ../sass/screen.scss */
+/* line 1, ../sass/components/_feature.scss */
 .feature {
   text-align: center;
 }
-/* line 167, ../sass/screen.scss */
+/* line 4, ../sass/components/_feature.scss */
 .feature i {
   height: 80px;
   width: 80px;
@@ -238,38 +85,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: var(--primaryColor);
   margin: auto;
   margin-bottom: 2em;
+  position: relative;
 }
-/* line 181, ../sass/screen.scss */
+/* line 19, ../sass/components/_feature.scss */
 .feature i:hover {
   background-color: #04072e;
 }
-/* line 187, ../sass/screen.scss */
-.feature .sliding-slashes {
-  height: 100px;
-  width: 100px;
+/* line 23, ../sass/components/_feature.scss */
+.feature i .sliding-slashes {
+  height: 100%;
+  width: 100%;
   display: block;
   align-content: center;
-  position: relative;
-  left: 148px;
-  top: 125px;
-  margin-right: 0px;
+  position: absolute;
+  left: 20%;
+  top: 40%;
   background: transparent;
   transform: rotate(-45deg);
+  z-index: -1;
 }
-/* line 201, ../sass/screen.scss */
-.feature .body1 {
+/* line 35, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body1 {
   height: 2px;
-  width: 0px;
+  width: 115%;
   margin-bottom: 5px;
   background-color: #04072e;
   border: none;
   opacity: 0.9;
   transition: width 2s ease-in-out 2s;
 }
-/* line 211, ../sass/screen.scss */
-.feature .body2 {
+/* line 46, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body2 {
   height: 2px;
-  width: 0px;
+  width: 115%;
   margin-bottom: 5px;
   margin-left: 10px;
   background-color: #04072e;
@@ -277,30 +125,180 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: width 2s ease 1.5s;
 }
-/* line 222, ../sass/screen.scss */
-.feature .body3 {
+/* line 58, ../sass/components/_feature.scss */
+.feature i .sliding-slashes .body3 {
   height: 2px;
-  width: 0px;
+  width: 115%;
   background-color: #04072e;
   border: none;
   opacity: 0.9;
   transition: 2s ease 0.5s;
 }
-
-/* line 234, ../sass/screen.scss */
-:hover .body1 {
-  width: 115px;
+/* line 70, ../sass/components/_feature.scss */
+.feature i:hover .body1 {
+  width: 115%;
   transition: 2s ease 0.5s;
 }
-
-/* line 237, ../sass/screen.scss */
-:hover .body2 {
-  width: 115px;
+/* line 75, ../sass/components/_feature.scss */
+.feature i:hover .body2 {
+  width: 115%;
   transition: 2s ease 1.5s;
 }
-
-/* line 240, ../sass/screen.scss */
-:hover .body3 {
-  width: 115px;
+/* line 80, ../sass/components/_feature.scss */
+.feature i:hover .body3 {
+  width: 115%;
   transition: 1s ease 2s;
+}
+
+/* line 12, ../sass/screen.scss */
+.section-header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 17, ../sass/screen.scss */
+.section-header .header-contactbar {
+  height: 45px;
+  padding-top: 5px;
+}
+/* line 22, ../sass/screen.scss */
+.section-header .header-contactbar .header-social a {
+  color: #ffffff;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  padding-right: 10px;
+}
+/* line 30, ../sass/screen.scss */
+.section-header .header-contactbar .header-social a :hover {
+  color: #EF3345;
+}
+/* line 35, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact {
+  float: right;
+}
+/* line 38, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact a {
+  color: #ffffff;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+}
+/* line 45, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact a :hover {
+  color: #EF3345;
+}
+/* line 49, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact a :focus:active {
+  color: #EF3345;
+  text-decoration: none;
+}
+/* line 55, ../sass/screen.scss */
+.section-header .header-contactbar .header-contact a i {
+  font-weight: 700;
+}
+
+/* line 64, ../sass/screen.scss */
+.header-navbar {
+  height: 90px;
+  background-color: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  padding-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+}
+/* line 76, ../sass/screen.scss */
+.header-navbar .header__container--navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 84, ../sass/screen.scss */
+.header-navbar .navbar {
+  background-color: #ffffff;
+  float: right;
+}
+/* line 88, ../sass/screen.scss */
+.header-navbar .navbar .navbar-brand--logo {
+  color: #EF3345;
+  font-size: 45px;
+  font-weight: 900;
+  margin-right: 200px;
+}
+/* line 96, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav ul {
+  margin-left: auto;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 103, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li {
+  margin-left: 25px;
+}
+/* line 107, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li a:hover:focus:active .nav-itema {
+  color: #EF3345;
+}
+/* line 112, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li a.dropdown-menu.dropdown-item {
+  transition: transform 1.5s ease-in, color 0.2 ease-in-out;
+}
+/* line 116, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li :hover {
+  color: #EF3345;
+}
+/* line 120, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li :hover.dropdown-item:hover {
+  transform: translateX(5px);
+  overflow: hidden;
+  color: #EF3345;
+  background-color: transparent;
+}
+/* line 131, ../sass/screen.scss */
+.header-navbar .navbar .navbar-nav li.active a {
+  color: #EF3345;
+}
+/* line 137, ../sass/screen.scss */
+.header-navbar .navbar form {
+  margin-left: 20px;
+  background-color: #EF3345;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+}
+/* line 148, ../sass/screen.scss */
+.header-navbar .navbar form .navbar__btn--donate {
+  position: relative;
+  color: #ffffff;
+  font-size: inherit;
+  border-style: inherit;
+  font-family: inherit;
+  display: inherit;
+}
+/* line 159, ../sass/screen.scss */
+.header-navbar .navbar form:before {
+  content: "";
+  width: 0;
+  background-color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 5px;
+  position: absolute;
+  transition: all 1.5s ease;
+}
+/* line 172, ../sass/screen.scss */
+.header-navbar .navbar form:hover:before {
+  background-color: #000000;
+  width: 100%;
+  transition: all 2s ease;
 }
