@@ -219,3 +219,88 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   transition: all 2s ease;
 }
+
+/* line 164, ../sass/screen.scss */
+.feature {
+  text-align: center;
+}
+/* line 167, ../sass/screen.scss */
+.feature i {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  text-justify: midle;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--primaryColor);
+  margin: auto;
+  margin-bottom: 2em;
+}
+/* line 181, ../sass/screen.scss */
+.feature i:hover {
+  background-color: #04072e;
+}
+/* line 187, ../sass/screen.scss */
+.feature .sliding-slashes {
+  height: 100px;
+  width: 100px;
+  display: block;
+  align-content: center;
+  position: relative;
+  left: 148px;
+  top: 125px;
+  margin-right: 0px;
+  background: transparent;
+  transform: rotate(-45deg);
+}
+/* line 201, ../sass/screen.scss */
+.feature .body1 {
+  height: 2px;
+  width: 0px;
+  margin-bottom: 5px;
+  background-color: #04072e;
+  border: none;
+  opacity: 0.9;
+  transition: width 2s ease-in-out 2s;
+}
+/* line 211, ../sass/screen.scss */
+.feature .body2 {
+  height: 2px;
+  width: 0px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  background-color: #04072e;
+  border: none;
+  opacity: 0.9;
+  transition: width 2s ease 1.5s;
+}
+/* line 222, ../sass/screen.scss */
+.feature .body3 {
+  height: 2px;
+  width: 0px;
+  background-color: #04072e;
+  border: none;
+  opacity: 0.9;
+  transition: 2s ease 0.5s;
+}
+
+/* line 234, ../sass/screen.scss */
+:hover .body1 {
+  width: 115px;
+  transition: 2s ease 0.5s;
+}
+
+/* line 237, ../sass/screen.scss */
+:hover .body2 {
+  width: 115px;
+  transition: 2s ease 1.5s;
+}
+
+/* line 240, ../sass/screen.scss */
+:hover .body3 {
+  width: 115px;
+  transition: 1s ease 2s;
+}

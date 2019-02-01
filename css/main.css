@@ -38,8 +38,6 @@ section:not(.section--only) {
 
 
 
-
-
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -125,23 +123,6 @@ nav .navbar {
   text-align: center;
 }
 
-.feature i {
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  font-size: 35px;
-  color: #ffffff;
-  text-align: center;
-  text-justify: midle;
-  display: block;
-  border-radius: 50%;
-  background-color: var(--primaryColor);
-  margin: auto;
-  margin-bottom: 2em;
-}
-.feature i:hover{
-  background-color: #000000;
-}
 
 .feature--title {
   font-size: 1.3em;
@@ -149,9 +130,7 @@ nav .navbar {
   margin-bottom: 1.2em;
 }
 
-.feature--desc {
-  text-align: center;
-}
+
 
 .section__donation {
   background-color: #404040;

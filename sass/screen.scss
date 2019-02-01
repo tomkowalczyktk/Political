@@ -67,7 +67,7 @@
         padding-right: 0px;
 
         
-      }
+    }
       
         
     .navbar{
@@ -161,6 +161,84 @@
 
         
     }
-
+    .feature {
+        text-align: center;
+      
+        i {
+            height: 80px;
+            width: 80px;
+            line-height: 80px;
+            font-size: 35px;
+            color: #ffffff;
+            text-align: center;
+            text-justify: midle;
+            display: block;
+            border-radius: 50%;
+            background-color: var(--primaryColor);
+            margin: auto;
+            margin-bottom: 2em;
+        }
+            i:hover{
+                background-color: #04072e;
+            }
+            
+        
     
+    .sliding-slashes{
+        height: 100px;
+        width: 100px;
+        display: block;
+        align-content: center;
+        position: relative;
+        left:148px;
+        top:125px; 
+        margin-right: 0px;
+        background:transparent;
+        transform: rotate(-45deg);
+      
+        }
+        
+        .body1{
+        height: 2px;
+        width: 0px;
+        margin-bottom:5px;
+        background-color:  #04072e;
+        border:none;
+        opacity: 0.9;
+        transition: width 2s ease-in-out 2s ;
+
+        }
+        .body2{
+        height: 2px;
+        width: 0px;
+        margin-bottom:5px;
+        margin-left:10px;
+        background-color:  #04072e;
+        border:none;
+        opacity: 0.9;
+        transition: width 2s ease 1.5s;  
+        
+        }
+        .body3{
+        height: 2px;
+        width: 0px;
+        background-color:  #04072e;
+        border:none;
+        opacity: 0.9;
+        transition: 2s ease 0.5s ;  
+       
+        }
+        .sliding-slashes:hover.sliding-slashes .body1{
+            width: 115px;
+            transition: 2s ease 0.5s ;}
+            :hover .body2{
+            width: 115px;
+            transition: 2s ease 1.5s ;}
+            :hover .body3{
+            width: 115px;
+            transition: 1s ease 2s ;}  
+        
+    }
+        
+   
 
