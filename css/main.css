@@ -63,65 +63,6 @@ section:not(.section--only) {
 
 
 
-.campaign {
-  position: relative;
-  overflow: hidden;
-}
-
-.campaign::before {
-  background: linear-gradient(to bottom, #000000 0%, #ef3345 100%);
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.75;
-
-}
-
-.campaign .image img {
-  width: 100%;
-  transition: all 0.5s ease 0s;
-}
-
-.campaign .content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 30px;
-
-}
-
-.campaign .content h3 {
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  margin-bottom: 6px;
-}
-
-.campaign .content ul li {
-  color: var(--primaryTextColor);
-  font-size: 14px;
-  line-height: 26px;
-  font-family: "Poppins", sans-serif;
-  display: block;
-  float: left;
-}
-
-.campaign .content ul li i {
-  color: var(--primaryTextColor);
-  font-size: 14px;
-  line-height: 26px;
-  margin-right: 10px;
-  display: block;
-  float: left;
-}
-
-.campaign .content h3 a {
-  color: #ffffff;
-}
 
 .section__contribiusion {
   background-color: #ef3345;

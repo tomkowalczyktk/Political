@@ -415,3 +415,108 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 45px;
   color: var(--primaryTextColor);
 }
+
+/* line 14, ../sass/screen.scss */
+.section__campaign {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+/* line 17, ../sass/screen.scss */
+.section__campaign .container {
+  margin-bottom: 2em;
+  padding-top: 1.5em;
+}
+/* line 20, ../sass/screen.scss */
+.section__campaign .container .section__title {
+  color: var(--sectionTitleColor);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+}
+/* line 29, ../sass/screen.scss */
+.section__campaign .container .section__subtitle {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  max-width: 670px;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-top: 12px;
+}
+/* line 41, ../sass/screen.scss */
+.section__campaign .campaign {
+  position: relative;
+  overflow: hidden;
+}
+/* line 44, ../sass/screen.scss */
+.section__campaign .campaign::before {
+  background: linear-gradient(to bottom, #000000 0%, #ef3345 100%);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+}
+/* line 54, ../sass/screen.scss */
+.section__campaign .campaign .image {
+  height: 420;
+  width: 370;
+}
+/* line 57, ../sass/screen.scss */
+.section__campaign .campaign .image img {
+  width: 100%;
+  transition: transform 0.5s ease 0s;
+}
+/* line 64, ../sass/screen.scss */
+.section__campaign .campaign:hover img {
+  transform: scale(1.2);
+  transition: 0.5s ease 0.5s;
+}
+/* line 70, ../sass/screen.scss */
+.section__campaign .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+}
+/* line 76, ../sass/screen.scss */
+.section__campaign .content h3 {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+/* line 81, ../sass/screen.scss */
+.section__campaign .content h3 a {
+  color: #ffffff;
+}
+/* line 85, ../sass/screen.scss */
+.section__campaign .content ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 88, ../sass/screen.scss */
+.section__campaign .content ul li {
+  color: var(--primaryTextColor);
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  float: left;
+}
+/* line 95, ../sass/screen.scss */
+.section__campaign .content ul li i {
+  color: var(--primaryTextColor);
+  font-size: 14px;
+  line-height: 26px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+}
