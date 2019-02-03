@@ -9,6 +9,8 @@ html {
   position: relative;
   min-height: 100%;
   min-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -64,6 +66,8 @@ section:not(.section--only) {
 
 
 
+
+
 .section__contribiusion {
   background-color: #ef3345;
   min-height: 450px;
@@ -104,7 +108,7 @@ section:not(.section--only) {
   margin: auto;
 }
 
-.section__contribiusion p {
+/*.section__contribiusion p {
   font-size: 16px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
@@ -124,14 +128,7 @@ section:not(.section--only) {
 
 }
 
-.btn--volunteer {
-  color: #ffffff;
-  padding: 0.5em 2em;
-  display: block;
-  margin: auto;
-}
-
-.btn--volunteer {
+.btn.btn-secondary.btn--volunteer {
   background-color: black;
   border: none;
   border-radius: 4px;
@@ -139,18 +136,32 @@ section:not(.section--only) {
   width: 16rem;
   height: 3.5rem;
   font-size: 0.9rem;
-  transition-property: background; 
-  transition-duration: left;
-  transition: color 3s ease-in-out;
+  display: block;
+  margin: auto;
+  position: relative;
   
 }
-.btn--volunteer:active,.btn--volunteer:focus,.btn--volunteer:hover{
+.btn.btn-secondary.btn--volunteer:before{
+  content:"";
+  width: 0%;
   background-color: #ec1026;
-  border: none;
-  
-  
+  top:0;
+  left:0;
+  bottom:0;
+  border-radius: 4px;
+  position:absolute;
+  transition:all 1.5s ease;
 }
-.section__mission {
+.btn.btn-secondary.btn--volunteer:active:before,
+.btn.btn-secondary.btn--volunteer:focus:before,
+.btn.btn-secondary.btn--volunteer:hover:before{
+  background-color: #ec1026;
+  width: 100%;
+  transition:all 2s ease; 
+}
+*/
+
+/*.section__mission {
   padding-top: 110px;
   padding-bottom: 90px;
 }
@@ -204,7 +215,7 @@ section:not(.section--only) {
   font-weight: 800;
   margin-bottom: 0;
 }
-
+*/
 
 .section__subscribe::before {
   background-color: rgb(11, 11, 104);

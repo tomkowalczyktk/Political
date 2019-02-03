@@ -1,0 +1,53 @@
+.section__mission {
+    padding-top: 110px;
+    padding-bottom: 90px;
+    .container{
+        .row--mission {
+            align-items: center;
+            .col-map{
+                .mission-map {
+                    position: relative;
+                    overflow: hidden;
+                    background-color: transparent;
+                }
+            }
+            .mission-content {
+                margin-bottom: 30px;
+                h5 {
+                    text-align: left;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #EF3345;
+                    line-height: 18px;
+                    font-weight: 600;
+                }
+                h2 {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 30px;
+                    text-transform: capitalize;
+                    color: #191919;
+                    line-height: 36px;
+                    font-weight: 800;
+                    margin-bottom: 24px;
+                }
+                h3 {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 22px;
+                    text-transform: capitalize;
+                    color: #ef3345;
+                    line-height: 28px;
+                    font-weight: 800;
+                    margin-bottom: 0;
+                }
+                p {
+                    font-size: 18px;
+                    margin-bottom: 26px;
+                    line-height: 30px;
+                }
+
+            }
+        }
+    }
+}
+

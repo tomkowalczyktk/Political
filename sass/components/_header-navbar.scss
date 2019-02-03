@@ -1,4 +1,5 @@
 .header-navbar{
+    width: 100%;
     height: 100px;
     background-color: #ffffff;
     line-height: 24px;
@@ -37,7 +38,7 @@
                     
                         
                     a{
-                        &:hover:focus:active .nav-itema{
+                        &:hover:focus:active .nav-item{
                             color: #EF3345;
                             
                         }
