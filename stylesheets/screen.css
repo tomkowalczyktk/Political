@@ -558,13 +558,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: unset;
   right: 100px;
 }
-/* line 30, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers {
+/* line 28, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers {
   align-content: center;
   margin: auto;
 }
-/* line 33, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers h3 {
+/* line 31, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers h3 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -573,15 +573,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   text-align: center;
 }
-/* line 42, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .underscore {
+/* line 40, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .underscore {
   background-color: #ffffff;
   height: 2px;
   width: 80px;
   margin: auto;
 }
-/* line 48, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .contr {
+/* line 47, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .contr output {
   width: 100%;
   font-size: 4rem;
   font-weight: 900;
@@ -592,15 +592,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 /* line 58, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers p {
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers p {
   font-size: 16px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
   display: block;
   text-align: center;
 }
-/* line 67, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .btn .btn-secondary .btn--volunteer {
+/* line 65, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer {
   background-color: black;
   border: none;
   border-radius: 4px;
@@ -611,9 +611,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   margin: auto;
   position: relative;
+  z-index: 2;
 }
-/* line 78, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .btn .btn-secondary .btn--volunteer:before {
+/* line 77, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:before {
   content: "";
   width: 0%;
   background-color: #ec1026;
@@ -623,10 +624,401 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 4px;
   position: absolute;
   transition: all 1.5s ease;
+  z-index: -1;
 }
 /* line 89, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .btn .btn-secondary .btn--volunteer:active:before, .section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .btn .btn-secondary .btn--volunteer:focus:before, .section__contribiusion .container .col-sm-6 .offset-sm-3 .numbers .btn .btn-secondary .btn--volunteer:hover:before {
+.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:hover:before {
   background-color: #ec1026;
   width: 100%;
   transition: all 2s ease;
+}
+
+/* line 1, ../sass/components/_section__mission.scss */
+.section__mission {
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+/* line 5, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission {
+  align-items: center;
+}
+/* line 8, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .col-map .mission-map {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+/* line 14, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .mission-content {
+  margin-bottom: 2em;
+}
+/* line 16, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .mission-content h5 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #EF3345;
+  line-height: 18px;
+  font-weight: 900;
+}
+/* line 25, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .mission-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+  color: #191919;
+  line-height: 36px;
+  font-weight: 1000;
+  margin-bottom: 1.5em;
+}
+/* line 34, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .mission-content h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #ef3345;
+  line-height: 28px;
+  font-weight: 1000;
+  margin-bottom: 0;
+}
+/* line 43, ../sass/components/_section__mission.scss */
+.section__mission .container .row--mission .mission-content p {
+  font-size: 18px;
+  margin-bottom: 26px;
+  line-height: 30px;
+}
+
+/* line 1, ../sass/components/_section__subscribe.scss */
+.section__subscribe {
+  background-color: #404040;
+  background-image: url("../images/subscribe-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  padding-top: 6em;
+  padding-bottom: 7em;
+  z-index: 1;
+}
+/* line 14, ../sass/components/_section__subscribe.scss */
+.section__subscribe::before {
+  background-color: #0b0b68;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* line 22, ../sass/components/_section__subscribe.scss */
+.section__subscribe .container-subscribe .section__title {
+  color: #ffffff;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2em;
+}
+/* line 33, ../sass/components/_section__subscribe.scss */
+.section__subscribe .container-subscribe .section__subtitle {
+  color: #ffffff;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 670px;
+  margin-bottom: 3em;
+  margin: auto;
+  margin-top: 0.75em;
+  margin-bottom: 2em;
+  padding-bottom: 4em;
+}
+/* line 47, ../sass/components/_section__subscribe.scss */
+.section__subscribe .container--form .form--subscribe {
+  align-items: left;
+  display: block;
+  color: #ffffff;
+  padding-bottom: 30px;
+  align-content: flex-start;
+}
+/* line 54, ../sass/components/_section__subscribe.scss */
+.section__subscribe .container--form .form--subscribe .row--subscribe .input--field {
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 3.5em;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: 600;
+  display: block;
+  min-width: 15.5em;
+  padding: 1em 2em;
+  color: #ffffff;
+  background-color: rgba(94, 97, 100, 0.4);
+  margin-bottom: 0.7em;
+}
+/* line 71, ../sass/components/_section__subscribe.scss */
+.section__subscribe .container--form .form--subscribe .row--subscribe .btn--subscribe {
+  display: inline-block;
+  height: 3.5em;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #EF3345;
+  text-rendering: auto;
+  position: relative;
+  justify-content: center;
+}
+
+/* line 2, ../sass/components/_section-news.scss */
+.section-news .container-news {
+  margin-bottom: 6em;
+  text-align: center;
+}
+/* line 5, ../sass/components/_section-news.scss */
+.section-news .container-news .section__title {
+  color: #404040;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2em;
+}
+/* line 14, ../sass/components/_section-news.scss */
+.section-news .container-news .section__subtitle {
+  color: #666666;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 670px;
+  margin-bottom: 3em;
+  margin: auto;
+  margin-top: 0.75em;
+  margin-bottom: 2em;
+}
+/* line 27, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card {
+  padding-bottom: 10em;
+}
+/* line 29, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card {
+  margin-bottom: 3em;
+  padding-left: 0;
+  border: none;
+  display: block;
+  height: 26.25em;
+  width: 23em;
+}
+/* line 39, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 42, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card-title {
+  font-weight: 700;
+  margin-bottom: 0.6em;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: #404040;
+}
+/* line 48, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card-title:hover {
+  color: #ef3345;
+}
+/* line 52, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .meta {
+  margin-bottom: 1.25em;
+}
+/* line 55, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .meta a:hover {
+  color: #ef3345;
+  background-color: transparent;
+}
+/* line 60, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .meta .meta-item {
+  color: #666666;
+  margin-right: 0.4rem;
+  font-size: 0.75em;
+}
+/* line 67, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card-text {
+  display: block;
+  color: #666666;
+  margin-bottom: 1.25em;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5em;
+  margin-block-end: 1.25em;
+  margin-block-start: 0;
+  margin-bottom: 1.25em;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  margin-top: 0;
+  text-align: left;
+}
+/* line 85, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .btn.btn-sm {
+  padding: 0.5em 1.5em;
+  font-size: 0.75em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+/* line 96, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card__btn {
+  background-color: #ef3345;
+  color: #ffffff;
+  position: relative;
+  transition: transform 1s linear forwards;
+  display: inline-block;
+  border: none;
+  z-index: 2;
+}
+/* line 104, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:before {
+  content: "";
+  width: 0;
+  background-color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  position: absolute;
+  transition: all 1.5s ease;
+  z-index: -1;
+}
+/* line 116, ../sass/components/_section-news.scss */
+.section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:active:before, .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:focus:before, .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:hover:before {
+  background-color: #000000;
+  width: 100%;
+  transition: all 2s ease;
+}
+
+/* line 2, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top {
+  background-color: #080833;
+  color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+/* line 7, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top h3 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+/* line 12, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top p {
+  font-weight: normal;
+}
+/* line 16, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t1 {
+  text-align: left;
+  border-right: 0.5px solid darkblue;
+}
+/* line 19, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t1 .title {
+  padding-bottom: 10px;
+}
+/* line 21, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t1 .title .span__f-t {
+  color: #ef3345;
+}
+/* line 26, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t1 .hover:hover {
+  color: #EF3345;
+}
+/* line 32, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t2 {
+  text-align: center;
+  border-right: 0.5px solid darkblue;
+}
+/* line 35, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t2 h3 {
+  color: #EF3345;
+  font-size: 26px;
+  padding-bottom: 10PX;
+}
+/* line 41, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t2 .footer-social .footer-icon {
+  display: inline-flex;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+/* line 51, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t2 .footer-social .footer-icon:hover {
+  color: #EF3345;
+  border: #EF3345 2px solid;
+  text-decoration: none;
+}
+/* line 59, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 {
+  text-align: right;
+}
+/* line 61, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 .title {
+  padding-bottom: 10px;
+}
+/* line 63, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 .title .span__f-t {
+  color: #ef3345;
+}
+/* line 69, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 72, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst .footer-img {
+  background-color: #EF3345;
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* line 80, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst .footer-img:hover {
+  background-color: #EF3345;
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  opacity: 0.2;
+}
+/* line 99, ../sass/components/_section-footer.scss */
+.section-footer .section-footer__bottom {
+  background-color: #EF3345;
+  color: #ffffff;
+  text-align: center;
+  height: 60px;
+  padding-top: 15px;
+  margin-bottom: 0px;
 }

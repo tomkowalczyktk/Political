@@ -1,0 +1,90 @@
+.section__subscribe {
+    background-color: #404040;
+    background-image: url("../images/subscribe-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    color: #ffffff;
+    position: relative;
+    padding-top: 6em;
+    padding-bottom: 7em;
+    z-index: 1;
+
+    &::before {
+        background-color: rgb(11, 11, 104);
+        opacity: 0.2;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+    }
+    .container-subscribe{
+        .section__title {
+            color: #ffffff;
+            padding-top: 4em;
+            padding-bottom: 1em;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: auto;
+            margin-top: 2em;
+        }
+        .section__subtitle {
+            color: #ffffff;
+            font-size: 1.1em;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            max-width: 670px;
+            margin-bottom: 3em;
+            margin: auto;
+            margin-top: 0.75em;
+            margin-bottom: 2em;
+            padding-bottom: 4em,
+        }
+    }
+    .container--form{
+        .form--subscribe {
+            align-items: left;
+            display: block;
+            color: #ffffff;
+            padding-bottom: 30px;
+            align-content: flex-start;
+            .row--subscribe{
+                .input--field {
+                    position: relative;
+                    border: none;
+                    border-radius: 4px;
+                    width: 100%;
+                    height: 3.5em;
+                    font-family: "Montserrat", sans-serif;
+                    text-align: left;
+                    font-size: 0.9em;
+                    font-weight: 600;  
+                    display: block;
+                    min-width: 15.5em;
+                    padding: 1em 2em;
+                    color: #ffffff;
+                    background-color: rgba(94, 97, 100, 0.4);
+                    margin-bottom: 0.7em;
+                }
+                .btn--subscribe {
+                    display:inline-block;
+                    height: 3.5em;
+                    width: 100%;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 0.9em;
+                    font-weight: 600;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: #ffffff;
+                    background-color: #EF3345;
+                    text-rendering: auto;
+                    position: relative;
+                    justify-content: center;
+                }
+            }
+        }
+          
+    }
+}
