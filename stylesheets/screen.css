@@ -67,6 +67,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/shared/_main.scss */
+:root {
+  --primaryColor: #EF3345;
+  --primaryTextColor: #ffffff;
+  --sectionTitleColor: #404040;
+  --color: #666666;
+}
+
+/* line 8, ../sass/shared/_main.scss */
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, ../sass/shared/_main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--color);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+/* line 4, ../sass/shared/_bootstrap-override.scss */
+.btn.btn-primary {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+
 /* line 1, ../sass/components/_section-header.scss */
 .section-header {
   width: 100%;
@@ -314,6 +347,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 84, ../sass/components/_feature.scss */
 .feature .feature--desc {
   margin-bottom: 2em;
+}
+
+/* line 1, ../sass/components/_section__main.scss */
+.section__main {
+  background-image: url("../images/bg_top_photo1.jpg");
+  min-height: 700px;
+  width: 100%;
+  background-position: center;
 }
 
 /* line 1, ../sass/components/_section__statement.scss */
