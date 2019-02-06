@@ -1022,3 +1022,121 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 15px;
   margin-bottom: 0px;
 }
+
+/* line 20, ../sass/screen.scss */
+.section__main {
+  background-image: url("../images/bg_top_photo1.jpg");
+  min-height: 950px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  z-index: 6;
+}
+/* line 28, ../sass/screen.scss */
+.section__main .container-slider {
+  height: 810px;
+  width: 80%;
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  z-index: 5;
+}
+/* line 38, ../sass/screen.scss */
+.section__main .container-slider .name {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: white;
+  z-index: 4;
+}
+/* line 45, ../sass/screen.scss */
+.section__main .container-slider .name1 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  display: block;
+  z-index: 4;
+  animation: sideSlide 2s ease 2s forwards;
+}
+/* line 53, ../sass/screen.scss */
+.section__main .container-slider .name2 {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 4;
+  animation: sideSlide 2s ease 3s forwards;
+}
+/* line 60, ../sass/screen.scss */
+.section__main .container-slider .descr {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 4;
+  animation: sideSlide 2s ease 4s forwards;
+}
+/* line 71, ../sass/screen.scss */
+.section__main .container-slider .button {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding-top: 4px;
+  height: 30px;
+  width: 110px;
+  background-color: red;
+  border-radius: 5px;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  z-index: 4;
+  animation: sideSlide 2s ease 5s forwards;
+}
+/* line 89, ../sass/screen.scss */
+.section__main .container-slider .pic {
+  height: 100%;
+  width: 50%;
+  background-image: url("../images/white_guy.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  border: 1px solid red;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  animation: pic 2s ease forwards;
+  z-index: 4;
+}
+
+@keyframes pic {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+/* line 115, ../sass/screen.scss */
+body {
+  background-color: rgba(2, 3, 5, 0.9);
+  z-index: 2;
+}
+
+@keyframes sideSlide {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

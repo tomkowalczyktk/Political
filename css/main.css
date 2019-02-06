@@ -46,7 +46,7 @@ section:not(.section--only) {
   border-color: var(--primaryColor);
 }
 
-
+/*
 .section__main {
   background-image: url('../images/bg_top_photo1.jpg');
   min-height: 700px;
@@ -54,6 +54,7 @@ section:not(.section--only) {
   background-position: center;
 
 }
+*/
 
 
 
