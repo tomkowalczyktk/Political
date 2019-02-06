@@ -1,105 +1,101 @@
-.header-navbar{
-    width: 100%;
-    height: 100px;
+.header-navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  padding-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  .header__container--navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar {
     background-color: #ffffff;
-    line-height: 24px;
-    font-size: 14px;
-    padding-top: 18px;
-    font-style: normal;
-    font-weight: normal;
-    visibility: visible;
-    font-family: "Poppins", sans-serif;
-    color: #666666;
-    .header__container--navbar{
-        padding-left: 0px;
-        padding-right: 0px;        
+    float: right;
+
+    .navbar-brand--logo {
+      color: #ef3345;
+      font-size: 45px;
+      font-weight: 900;
+      margin-right: 200px;
     }
-      
-    .navbar{
-        background-color: #ffffff;
-        float: right;
 
-        .navbar-brand--logo{
-            color: #EF3345;
-            font-size: 45px;
-            font-weight: 900;
-            margin-right: 200px;
+    .navbar-nav {
+      ul {
+        margin-left: auto;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+      }
+      li {
+        margin-left: 25px;
+
+        a {
+          &:hover:focus:active .nav-item {
+            color: #ef3345;
+          }
+          .dropdown-menu.dropdown-item {
+            transition: transform 1.5s ease-in, color 0.2 ease-in-out;
+          }
+
+          &:hover {
+            color: #ef3345;
+          }
+          &:hover.dropdown-item:hover {
+            transform: translateX(5px);
+            overflow: hidden;
+            color: #ef3345;
+            background-color: transparent;
+          }
         }
-      
-        .navbar-nav{
-            ul{
-                margin-left: auto;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                
-                }
-                li{
-                    margin-left:25px;
-                    
-                        
-                    a{
-                        &:hover:focus:active .nav-item{
-                            color: #EF3345;
-                            
-                        }
-                        .dropdown-menu.dropdown-item{
-                            transition: transform 1.5s ease-in, color 0.2 ease-in-out;
-                        }
-                    
-
-                        &:hover{
-                            color: #EF3345;
-                        }
-                        &:hover.dropdown-item:hover{
-                            transform:translateX(5px);
-                            overflow:hidden;
-                            color: #EF3345;
-                            background-color:transparent;
-                        } 
-                    }    
-                }
-                .active{
-                    a{
-                    color: #EF3345;
-                    }
-                }
-            }
-
-        form{
-            margin-left: 20px;
-            background-color: #EF3345;
-            color: #ffffff;
-            font-weight: 600;
-            font-family: "Montserrat", sans-serif;
-            font-size: 14px;
-            position: relative;
-            display: inline-block;
-            border-radius: 5px;
-            .navbar__btn--donate{
-                position: relative;
-                color: #ffffff;
-                font-size: inherit; 
-                border-style: inherit;
-                font-family: inherit;
-                display: inherit; 
-            }
-
-            &:before{
-                content:"";
-                width:0;
-                background-color:black;
-                top:0;
-                left:0;
-                bottom:0;
-                border-radius: 5px;
-                position:absolute;
-                transition:all 1.5s ease;
-            }
-            &:hover:before{
-                background-color: #000000;
-                width: 100%;
-                transition:all 2s ease;                  
-            }
+      }
+      .active {
+        a {
+          color: #ef3345;
         }
-    }  
+      }
+    }
+
+    form {
+      margin-left: 20px;
+      background-color: #ef3345;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      position: relative;
+      display: inline-block;
+      border-radius: 5px;
+      .navbar__btn--donate {
+        position: relative;
+        color: #ffffff;
+        font-size: inherit;
+        border-style: inherit;
+        font-family: inherit;
+        display: inherit;
+      }
+
+      &:before {
+        content: "";
+        width: 0;
+        background-color: black;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border-radius: 5px;
+        position: absolute;
+        transition: all 1.5s ease;
+      }
+      &:hover:before {
+        background-color: #000000;
+        width: 100%;
+        transition: all 2s ease;
+      }
+    }
+  }
 }

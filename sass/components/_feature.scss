@@ -1,94 +1,87 @@
 .feature {
+  text-align: center;
+
+  i {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 35px;
+    color: #ffffff;
     text-align: center;
-    
-    i {
-        height: 80px;
-        width: 80px;
-        line-height: 80px;
-        font-size: 35px;
-        color: #ffffff;
-        text-align: center;
-        display: block;
-        border-radius: 50%;
-        background-color: var(--primaryColor);
-        margin: auto;
-        margin-bottom: 1em;
-        transition: background-color 0.5s ease-in-out 3s ;
-        position: relative;
-        &:hover{
-            background-color: #04072e;
-            transition: 1s ease-in-out ;
-        }
-        
-        .sliding-slashes{
-            height: 100%;
-            width: 100%;
-            margin-right: 0;
-            display: block;
-            align-content: center;
-            position: absolute;
-            left:0;
-            top:0; 
-            background:transparent;
-            transform: translateY(50%) rotate(-45deg);
-            z-index: -1;
-        
-            
-            
-            .body1{
-            height: 2px;
-            width: 0px;
-            margin-bottom:5px;
-            background-color:  #04072e;
-            border:none;
-            opacity: 0.9;
-            transition: width 1s ease-in-out 2s ;
-
-            }
-            .body2{
-            height: 2px;
-            width: 0px;
-            margin-bottom:5px;
-            margin-left:10px;
-            background-color:  #04072e;
-            border:none;
-            opacity: 0.9;
-            transition: width 1s ease-in-out 1.5s;  
-            
-            }
-            .body3{
-            height: 2px;
-            width: 0px;
-            background-color:  #04072e;
-            border:none;
-            opacity: 0.9;
-            transition: 1s ease-in-out 0.5s ;  
-            }
-        }
-        &:hover{ 
-            .body1{
-            width: 115px;
-            transition: 2s ease 0.5s ;
-            }
-            .body2{
-            width: 115px;
-            transition: 2s ease 1.5s ;
-            }
-            .body3{
-            width: 115px;
-            transition: 1s ease 2s ;
-            } 
-        } 
-    }
-    .feature--title {
-        font-size: 1.5em;
-        font-weight: bold;
-        margin-bottom: 1.2em;
-        
-    }
-    .feature--desc{
-        margin-bottom: 2em;
+    display: block;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+    margin: auto;
+    margin-bottom: 1em;
+    transition: background-color 0.5s ease-in-out 3s;
+    position: relative;
+    &:hover {
+      background-color: #04072e;
+      transition: 1s ease-in-out;
     }
 
+    .sliding-slashes {
+      height: 100%;
+      width: 100%;
+      margin-right: 0;
+      display: block;
+      align-content: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: transparent;
+      transform: translateY(50%) rotate(-45deg);
+      z-index: -1;
+
+      .body1 {
+        height: 2px;
+        width: 0px;
+        margin-bottom: 5px;
+        background-color: #04072e;
+        border: none;
+        opacity: 0.9;
+        transition: width 1s ease-in-out 2s;
+      }
+      .body2 {
+        height: 2px;
+        width: 0px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        background-color: #04072e;
+        border: none;
+        opacity: 0.9;
+        transition: width 1s ease-in-out 1.5s;
+      }
+      .body3 {
+        height: 2px;
+        width: 0px;
+        background-color: #04072e;
+        border: none;
+        opacity: 0.9;
+        transition: 1s ease-in-out 0.5s;
+      }
+    }
+    &:hover {
+      .body1 {
+        width: 115px;
+        transition: 2s ease 0.5s;
+      }
+      .body2 {
+        width: 115px;
+        transition: 2s ease 1.5s;
+      }
+      .body3 {
+        width: 115px;
+        transition: 1s ease 2s;
+      }
+    }
+  }
+  .feature--title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+  }
+  .feature--desc {
+    margin-bottom: 2em;
+  }
 }
-        

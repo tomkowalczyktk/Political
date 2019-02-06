@@ -78,7 +78,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 45px;
   padding-top: 5px;
 }
-/* line 13, ../sass/components/_section-header.scss */
+/* line 11, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-social a {
   color: #ffffff;
   margin: auto;
@@ -87,32 +87,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 35px;
   padding-right: 10px;
 }
-/* line 20, ../sass/components/_section-header.scss */
+/* line 18, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-social a:hover {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 25, ../sass/components/_section-header.scss */
+/* line 23, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact {
   float: right;
 }
-/* line 27, ../sass/components/_section-header.scss */
+/* line 25, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a {
   color: #ffffff;
   margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 14px;
   margin-left: 20px;
 }
-/* line 33, ../sass/components/_section-header.scss */
+/* line 32, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a:hover {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 36, ../sass/components/_section-header.scss */
+/* line 35, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a:focus:active {
-  color: #EF3345;
+  color: #ef3345;
   text-decoration: none;
 }
-/* line 40, ../sass/components/_section-header.scss */
+/* line 39, ../sass/components/_section-header.scss */
 .section-header .header-contactbar .header-contact a i {
   font-weight: 700;
 }
@@ -143,7 +143,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 22, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-brand--logo {
-  color: #EF3345;
+  color: #ef3345;
   font-size: 45px;
   font-weight: 900;
   margin-right: 200px;
@@ -154,37 +154,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
-/* line 36, ../sass/components/_header-navbar.scss */
+/* line 35, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li {
   margin-left: 25px;
 }
-/* line 41, ../sass/components/_header-navbar.scss */
+/* line 39, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li a:hover:focus:active .nav-item {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 45, ../sass/components/_header-navbar.scss */
+/* line 42, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li a .dropdown-menu.dropdown-item {
   transition: transform 1.5s ease-in, color 0.2 ease-in-out;
 }
-/* line 50, ../sass/components/_header-navbar.scss */
+/* line 46, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li a:hover {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 53, ../sass/components/_header-navbar.scss */
+/* line 49, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav li a:hover.dropdown-item:hover {
   transform: translateX(5px);
   overflow: hidden;
-  color: #EF3345;
+  color: #ef3345;
   background-color: transparent;
 }
-/* line 62, ../sass/components/_header-navbar.scss */
+/* line 58, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar .navbar-nav .active a {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 68, ../sass/components/_header-navbar.scss */
+/* line 64, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form {
   margin-left: 20px;
-  background-color: #EF3345;
+  background-color: #ef3345;
   color: #ffffff;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -193,7 +193,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   border-radius: 5px;
 }
-/* line 78, ../sass/components/_header-navbar.scss */
+/* line 74, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form .navbar__btn--donate {
   position: relative;
   color: #ffffff;
@@ -202,7 +202,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: inherit;
   display: inherit;
 }
-/* line 87, ../sass/components/_header-navbar.scss */
+/* line 83, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form:before {
   content: "";
   width: 0;
@@ -214,7 +214,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   transition: all 1.5s ease;
 }
-/* line 98, ../sass/components/_header-navbar.scss */
+/* line 94, ../sass/components/_header-navbar.scss */
 .header-navbar .navbar form:hover:before {
   background-color: #000000;
   width: 100%;
@@ -260,7 +260,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translateY(50%) rotate(-45deg);
   z-index: -1;
 }
-/* line 38, ../sass/components/_feature.scss */
+/* line 36, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body1 {
   height: 2px;
   width: 0px;
@@ -270,7 +270,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: width 1s ease-in-out 2s;
 }
-/* line 48, ../sass/components/_feature.scss */
+/* line 45, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body2 {
   height: 2px;
   width: 0px;
@@ -281,7 +281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: width 1s ease-in-out 1.5s;
 }
-/* line 59, ../sass/components/_feature.scss */
+/* line 55, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body3 {
   height: 2px;
   width: 0px;
@@ -290,28 +290,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: 1s ease-in-out 0.5s;
 }
-/* line 69, ../sass/components/_feature.scss */
+/* line 65, ../sass/components/_feature.scss */
 .feature i:hover .body1 {
   width: 115px;
   transition: 2s ease 0.5s;
 }
-/* line 73, ../sass/components/_feature.scss */
+/* line 69, ../sass/components/_feature.scss */
 .feature i:hover .body2 {
   width: 115px;
   transition: 2s ease 1.5s;
 }
-/* line 77, ../sass/components/_feature.scss */
+/* line 73, ../sass/components/_feature.scss */
 .feature i:hover .body3 {
   width: 115px;
   transition: 1s ease 2s;
 }
-/* line 83, ../sass/components/_feature.scss */
+/* line 79, ../sass/components/_feature.scss */
 .feature .feature--title {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 1.2em;
 }
-/* line 89, ../sass/components/_feature.scss */
+/* line 84, ../sass/components/_feature.scss */
 .feature .feature--desc {
   margin-bottom: 2em;
 }
@@ -337,7 +337,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
   margin-top: 30px;
 }
-/* line 19, ../sass/components/_section__statement.scss */
+/* line 18, ../sass/components/_section__statement.scss */
 .section__statement .container-statement .section__subtitle {
   font-size: 1.1em;
   text-align: center;
@@ -414,7 +414,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 59, ../sass/components/_section__donation.scss */
 .section__donation .container--donation .form--donation .btn--donateNow {
-  background-color: #EF3345;
+  background-color: #ef3345;
   width: 100%;
   height: 45px;
   color: var(--primaryTextColor);
@@ -452,12 +452,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 2em;
   margin-top: 12px;
 }
-/* line 29, ../sass/components/_section__campaign.scss */
+/* line 28, ../sass/components/_section__campaign.scss */
 .section__campaign .campaign {
   position: relative;
   overflow: hidden;
 }
-/* line 32, ../sass/components/_section__campaign.scss */
+/* line 31, ../sass/components/_section__campaign.scss */
 .section__campaign .campaign::before {
   background: linear-gradient(to bottom, #000000 0%, #ef3345 100%);
   content: "";
@@ -469,17 +469,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.75;
   z-index: 2;
 }
-/* line 43, ../sass/components/_section__campaign.scss */
+/* line 42, ../sass/components/_section__campaign.scss */
 .section__campaign .campaign .image {
   height: 420;
   width: 370;
 }
-/* line 46, ../sass/components/_section__campaign.scss */
+/* line 45, ../sass/components/_section__campaign.scss */
 .section__campaign .campaign .image img {
   width: 100%;
   transition: transform 0.5s ease 0s;
 }
-/* line 54, ../sass/components/_section__campaign.scss */
+/* line 51, ../sass/components/_section__campaign.scss */
 .section__campaign .campaign:hover img {
   transition: 0.5s ease 0.5s;
   transform: scale(1.2);
@@ -488,7 +488,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   height: 100%;
 }
-/* line 65, ../sass/components/_section__campaign.scss */
+/* line 61, ../sass/components/_section__campaign.scss */
 .section__campaign .content {
   position: absolute;
   left: 0;
@@ -497,23 +497,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 30px;
   z-index: 3;
 }
-/* line 72, ../sass/components/_section__campaign.scss */
+/* line 68, ../sass/components/_section__campaign.scss */
 .section__campaign .content h3 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 6px;
 }
-/* line 77, ../sass/components/_section__campaign.scss */
+/* line 73, ../sass/components/_section__campaign.scss */
 .section__campaign .content h3 a {
   color: #ffffff;
 }
-/* line 81, ../sass/components/_section__campaign.scss */
+/* line 77, ../sass/components/_section__campaign.scss */
 .section__campaign .content ul {
   margin: 0;
   padding: 0;
 }
-/* line 84, ../sass/components/_section__campaign.scss */
+/* line 80, ../sass/components/_section__campaign.scss */
 .section__campaign .content ul li {
   color: var(--primaryTextColor);
   font-size: 14px;
@@ -522,7 +522,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   float: left;
 }
-/* line 91, ../sass/components/_section__campaign.scss */
+/* line 87, ../sass/components/_section__campaign.scss */
 .section__campaign .content ul li i {
   color: var(--primaryTextColor);
   font-size: 14px;
@@ -558,12 +558,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: unset;
   right: 100px;
 }
-/* line 28, ../sass/components/_section__contribiusion.scss */
+/* line 27, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers {
   align-content: center;
   margin: auto;
 }
-/* line 31, ../sass/components/_section__contribiusion.scss */
+/* line 30, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers h3 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
@@ -573,14 +573,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   text-align: center;
 }
-/* line 40, ../sass/components/_section__contribiusion.scss */
+/* line 39, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .underscore {
   background-color: #ffffff;
   height: 2px;
   width: 80px;
   margin: auto;
 }
-/* line 47, ../sass/components/_section__contribiusion.scss */
+/* line 46, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .contr output {
   width: 100%;
   font-size: 4rem;
@@ -591,7 +591,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2;
   margin: auto;
 }
-/* line 58, ../sass/components/_section__contribiusion.scss */
+/* line 57, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers p {
   font-size: 16px;
   line-height: 26px;
@@ -599,7 +599,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   text-align: center;
 }
-/* line 65, ../sass/components/_section__contribiusion.scss */
+/* line 64, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer {
   background-color: black;
   border: none;
@@ -613,7 +613,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   z-index: 2;
 }
-/* line 77, ../sass/components/_section__contribiusion.scss */
+/* line 76, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:before {
   content: "";
   width: 0%;
@@ -626,7 +626,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: all 1.5s ease;
   z-index: -1;
 }
-/* line 89, ../sass/components/_section__contribiusion.scss */
+/* line 88, ../sass/components/_section__contribiusion.scss */
 .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:hover:before {
   background-color: #ec1026;
   width: 100%;
@@ -658,7 +658,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  color: #EF3345;
+  color: #ef3345;
   line-height: 18px;
   font-weight: 900;
 }
@@ -773,7 +773,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
-  background-color: #EF3345;
+  background-color: #ef3345;
   text-rendering: auto;
   position: relative;
   justify-content: center;
@@ -819,12 +819,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 26.25em;
   width: 23em;
 }
-/* line 39, ../sass/components/_section-news.scss */
+/* line 38, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 42, ../sass/components/_section-news.scss */
+/* line 41, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card-title {
   font-weight: 700;
   margin-bottom: 0.6em;
@@ -832,26 +832,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1.5em;
   color: #404040;
 }
-/* line 48, ../sass/components/_section-news.scss */
+/* line 47, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card-title:hover {
   color: #ef3345;
 }
-/* line 52, ../sass/components/_section-news.scss */
+/* line 51, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .meta {
   margin-bottom: 1.25em;
 }
-/* line 55, ../sass/components/_section-news.scss */
+/* line 54, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .meta a:hover {
   color: #ef3345;
   background-color: transparent;
 }
-/* line 60, ../sass/components/_section-news.scss */
+/* line 59, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .meta .meta-item {
   color: #666666;
   margin-right: 0.4rem;
   font-size: 0.75em;
 }
-/* line 67, ../sass/components/_section-news.scss */
+/* line 65, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card-text {
   display: block;
   color: #666666;
@@ -870,7 +870,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 0;
   text-align: left;
 }
-/* line 85, ../sass/components/_section-news.scss */
+/* line 83, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .btn.btn-sm {
   padding: 0.5em 1.5em;
   font-size: 0.75em;
@@ -882,7 +882,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   display: inline-block;
 }
-/* line 96, ../sass/components/_section-news.scss */
+/* line 94, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn {
   background-color: #ef3345;
   color: #ffffff;
@@ -892,7 +892,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
   z-index: 2;
 }
-/* line 104, ../sass/components/_section-news.scss */
+/* line 102, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:before {
   content: "";
   width: 0;
@@ -905,7 +905,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: all 1.5s ease;
   z-index: -1;
 }
-/* line 116, ../sass/components/_section-news.scss */
+/* line 114, ../sass/components/_section-news.scss */
 .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:active:before, .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:focus:before, .section-news .news__conteiner-card .row-card .news__card .card-body .card__btn:hover:before {
   background-color: #000000;
   width: 100%;
@@ -944,20 +944,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 26, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t1 .hover:hover {
-  color: #EF3345;
+  color: #ef3345;
 }
-/* line 32, ../sass/components/_section-footer.scss */
+/* line 31, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t2 {
   text-align: center;
   border-right: 0.5px solid darkblue;
 }
-/* line 35, ../sass/components/_section-footer.scss */
+/* line 34, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t2 h3 {
-  color: #EF3345;
+  color: #ef3345;
   font-size: 26px;
-  padding-bottom: 10PX;
+  padding-bottom: 10px;
 }
-/* line 41, ../sass/components/_section-footer.scss */
+/* line 40, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t2 .footer-social .footer-icon {
   display: inline-flex;
   font-size: 14px;
@@ -969,32 +969,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: center;
   align-items: center;
 }
-/* line 51, ../sass/components/_section-footer.scss */
+/* line 50, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t2 .footer-social .footer-icon:hover {
-  color: #EF3345;
-  border: #EF3345 2px solid;
+  color: #ef3345;
+  border: #ef3345 2px solid;
   text-decoration: none;
 }
-/* line 59, ../sass/components/_section-footer.scss */
+/* line 58, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 {
   text-align: right;
 }
-/* line 61, ../sass/components/_section-footer.scss */
+/* line 60, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 .title {
   padding-bottom: 10px;
 }
-/* line 63, ../sass/components/_section-footer.scss */
+/* line 62, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 .title .span__f-t {
   color: #ef3345;
 }
-/* line 69, ../sass/components/_section-footer.scss */
+/* line 68, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 72, ../sass/components/_section-footer.scss */
+/* line 71, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst .footer-img {
-  background-color: #EF3345;
+  background-color: #ef3345;
   width: 60px;
   height: 60px;
   margin-top: 10px;
@@ -1002,9 +1002,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 0px;
   padding-left: 0px;
 }
-/* line 80, ../sass/components/_section-footer.scss */
+/* line 79, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__top .row-footer__top .col-f_t3 .container .row .col-inst .footer-img:hover {
-  background-color: #EF3345;
+  background-color: #ef3345;
   width: 60px;
   height: 60px;
   margin-top: 10px;
@@ -1013,9 +1013,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 0px;
   opacity: 0.2;
 }
-/* line 99, ../sass/components/_section-footer.scss */
+/* line 96, ../sass/components/_section-footer.scss */
 .section-footer .section-footer__bottom {
-  background-color: #EF3345;
+  background-color: #ef3345;
   color: #ffffff;
   text-align: center;
   height: 60px;
