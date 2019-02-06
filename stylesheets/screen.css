@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -233,20 +233,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 35px;
   color: #ffffff;
   text-align: center;
-  text-justify: midle;
   display: block;
   border-radius: 50%;
   background-color: var(--primaryColor);
   margin: auto;
   margin-bottom: 1em;
   transition: background-color 0.5s ease-in-out 3s;
+  position: relative;
 }
-/* line 19, ../sass/components/_feature.scss */
+/* line 18, ../sass/components/_feature.scss */
 .feature i:hover {
   background-color: #04072e;
   transition: 1s ease-in-out;
 }
-/* line 24, ../sass/components/_feature.scss */
+/* line 23, ../sass/components/_feature.scss */
 .feature i .sliding-slashes {
   height: 100%;
   width: 100%;
@@ -254,13 +254,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   align-content: center;
   position: absolute;
-  left: 50%;
-  top: -35%;
+  left: 0;
+  top: 0;
   background: transparent;
-  transform: rotate(-45deg);
+  transform: translateY(50%) rotate(-45deg);
   z-index: -1;
 }
-/* line 39, ../sass/components/_feature.scss */
+/* line 38, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body1 {
   height: 2px;
   width: 0px;
@@ -270,7 +270,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: width 1s ease-in-out 2s;
 }
-/* line 49, ../sass/components/_feature.scss */
+/* line 48, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body2 {
   height: 2px;
   width: 0px;
@@ -281,7 +281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: width 1s ease-in-out 1.5s;
 }
-/* line 60, ../sass/components/_feature.scss */
+/* line 59, ../sass/components/_feature.scss */
 .feature i .sliding-slashes .body3 {
   height: 2px;
   width: 0px;
@@ -290,28 +290,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.9;
   transition: 1s ease-in-out 0.5s;
 }
-/* line 70, ../sass/components/_feature.scss */
+/* line 69, ../sass/components/_feature.scss */
 .feature i:hover .body1 {
   width: 115px;
   transition: 2s ease 0.5s;
 }
-/* line 74, ../sass/components/_feature.scss */
+/* line 73, ../sass/components/_feature.scss */
 .feature i:hover .body2 {
   width: 115px;
   transition: 2s ease 1.5s;
 }
-/* line 78, ../sass/components/_feature.scss */
+/* line 77, ../sass/components/_feature.scss */
 .feature i:hover .body3 {
   width: 115px;
   transition: 1s ease 2s;
 }
-/* line 84, ../sass/components/_feature.scss */
+/* line 83, ../sass/components/_feature.scss */
 .feature .feature--title {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 1.2em;
 }
-/* line 90, ../sass/components/_feature.scss */
+/* line 89, ../sass/components/_feature.scss */
 .feature .feature--desc {
   margin-bottom: 2em;
 }

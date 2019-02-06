@@ -8,14 +8,13 @@
         font-size: 35px;
         color: #ffffff;
         text-align: center;
-        text-justify: midle;
         display: block;
         border-radius: 50%;
         background-color: var(--primaryColor);
         margin: auto;
         margin-bottom: 1em;
         transition: background-color 0.5s ease-in-out 3s ;
-    
+        position: relative;
         &:hover{
             background-color: #04072e;
             transition: 1s ease-in-out ;
@@ -28,10 +27,10 @@
             display: block;
             align-content: center;
             position: absolute;
-            left:50%;
-            top:-35%; 
+            left:0;
+            top:0; 
             background:transparent;
-            transform: rotate(-45deg);
+            transform: translateY(50%) rotate(-45deg);
             z-index: -1;
         
             
