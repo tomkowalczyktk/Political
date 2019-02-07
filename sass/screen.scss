@@ -8,9 +8,13 @@
 @import "shared/bootstrap-override";
 @import "components/section__main";
 @import "shared/bootstrap-override";
+@import "compass/reset";
+@import "shared/main";
+@import "shared/bootstrap-override";
 @import "components/section-header";
 @import "components/header-navbar";
 @import "components/feature";
+@import "components/section__main";
 @import "components/section__statement";
 @import "components/section__donation";
 @import "components/section__campaign";
@@ -27,8 +31,8 @@
     width: 100%;
     background-position: center;
     position:relative;
-    z-index: 6;
-
+    z-index: -100;
+}
    .container-slider{
         height:810px;
         width:80%;
@@ -37,28 +41,29 @@
         position:absolute;
         bottom: 0;
         left:10%;
-        z-index: 5;
+        z-index:-150;
     
         .name{
+          position: absolute;
           font-size:50px;
           font-family: "Poppins", sans-serif;
           font-weight:900;
           color:white;
-          z-index: 4;
+          z-index: -160;
         }
         .name1{
           position:absolute;
           top:20%;
           left:0;
           display:block;
-          z-index: 4;
+          z-index: -160;
           animation: sideSlide 2s ease 2s forwards;
         }
         .name2{
           position:absolute;
           top:30%;
           left:0;
-          z-index: 4;
+          z-index: -160;
           animation: sideSlide 2s ease 3s forwards;
         }
         .descr{
@@ -69,7 +74,7 @@
           position:absolute;
           top:40%;
           left:0;
-          z-index: 4;
+          z-index: -160;
           animation: sideSlide 2s ease 4s forwards;
         }
         .button{
@@ -87,7 +92,7 @@
           position:absolute;
           top:55%;
           left:0;
-          z-index: 4;
+          z-index: -160;
           animation: sideSlide 2s ease 5s forwards;
         }
         .pic{
@@ -102,11 +107,11 @@
           bottom:0%;
           right:0;
           animation: pic 2s ease forwards;
-          z-index:4;      
+          z-index:-140;      
         }
     }  
   
-}
+
 @keyframes pic{
     0%{
       transform: translate(0,100%);
