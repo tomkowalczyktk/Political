@@ -1088,53 +1088,56 @@ body {
 /* line 36, ../sass/screen.scss */
 .container-slider {
   height: 810px;
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   display: block;
   position: absolute;
-  bottom: 0;
+  top: 0%;
   left: 10%;
-  z-index: -150;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  z-index: -99;
 }
-/* line 46, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .container-slider .name {
   position: absolute;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: white;
-  z-index: -160;
+  z-index: -150;
 }
-/* line 54, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .container-slider .name1 {
   position: absolute;
-  top: 20%;
-  left: 0;
+  top: 40%;
+  left: 20%;
   display: block;
-  z-index: -160;
+  z-index: -150;
   animation: sideSlide 2s ease 2s forwards;
 }
-/* line 62, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .container-slider .name2 {
   position: absolute;
-  top: 30%;
-  left: 0;
-  z-index: -160;
+  top: 50%;
+  left: 20%;
+  z-index: -150;
   animation: sideSlide 2s ease 3s forwards;
 }
-/* line 69, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .container-slider .descr {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: white;
   position: absolute;
-  top: 40%;
-  left: 0;
-  z-index: -160;
+  top: 60%;
+  left: 20%;
+  z-index: -150;
   animation: sideSlide 2s ease 4s forwards;
 }
-/* line 80, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .container-slider .button {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
@@ -1148,12 +1151,12 @@ body {
   background-color: red;
   border-radius: 5px;
   position: absolute;
-  top: 55%;
-  left: 0;
-  z-index: -160;
+  bottom: 30%;
+  left: 20%;
+  z-index: -150;
   animation: sideSlide 2s ease 5s forwards;
 }
-/* line 98, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .container-slider .pic {
   height: 100%;
   width: 50%;
@@ -1169,7 +1172,7 @@ body {
   bottom: 0%;
   right: 0;
   animation: pic 2s ease forwards;
-  z-index: -140;
+  z-index: -99;
 }
 
 @keyframes pic {
@@ -1180,7 +1183,7 @@ body {
     transform: translate(0, 0);
   }
 }
-/* line 124, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 body {
   background-color: rgba(2, 3, 5, 0.9);
   z-index: 2;

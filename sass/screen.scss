@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset"; 
+@import "compass/reset";
 @import "shared/main";
 @import "shared/bootstrap-override";
 @import "components/section__main";
@@ -24,116 +24,113 @@
 @import "components/section-news";
 @import "components/section-footer";
 
-
 .section__main {
-    background-image: url('../images/bg_top_photo1.jpg');
-    min-height: 950px;
-    width: 100%;
-    background-position: center;
-    position:relative;
-    z-index: -100;
+  background-image: url("../images/bg_top_photo1.jpg");
+  min-height: 950px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  z-index: -100;
 }
-   .container-slider{
-        height:810px;
-        width:80%;
-        border:1px solid black;
-        display: block;
-        position:absolute;
-        bottom: 0;
-        left:10%;
-        z-index:-150;
-    
-        .name{
-          position: absolute;
-          font-size:50px;
-          font-family: "Poppins", sans-serif;
-          font-weight:900;
-          color:white;
-          z-index: -160;
-        }
-        .name1{
-          position:absolute;
-          top:20%;
-          left:0;
-          display:block;
-          z-index: -160;
-          animation: sideSlide 2s ease 2s forwards;
-        }
-        .name2{
-          position:absolute;
-          top:30%;
-          left:0;
-          z-index: -160;
-          animation: sideSlide 2s ease 3s forwards;
-        }
-        .descr{
-          font-size:28px;
-          font-family: "Poppins", sans-serif;
-          font-weight:700;
-          color:white;
-          position:absolute;
-          top:40%;
-          left:0;
-          z-index: -160;
-          animation: sideSlide 2s ease 4s forwards;
-        }
-        .button{
-          font-size:18px;
-          font-family: "Poppins", sans-serif;
-          font-weight:600;
-          text-align:center;
-          color:white;
-          margin-top:20px;
-          padding-top:4px;
-          height:30px;
-          width:110px;
-          background-color:red;
-          border-radius:5px;
-          position:absolute;
-          top:55%;
-          left:0;
-          z-index: -160;
-          animation: sideSlide 2s ease 5s forwards;
-        }
-        .pic{
-          height:100%;
-          width:50%;
-          background-image: url('../images/white_guy.png');
-          background-position: center; /* Center the image */
-          background-repeat: no-repeat; /* Do not repeat the image */
-          background-size: cover; /* Resize the background image to cover the entire container */
-          border:1px solid red;
-          position:absolute;
-          bottom:0%;
-          right:0;
-          animation: pic 2s ease forwards;
-          z-index:-140;      
-        }
-    }  
-  
+.container-slider {
+  height: 810px;
+  width: 100%;
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  z-index: -99;
 
-@keyframes pic{
-    0%{
-      transform: translate(0,100%);
-     
-    }
-    100%{
-      transform: translate(0,0);
-    }
+  .name {
+    position: absolute;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    color: white;
+    z-index: -150;
   }
-  body{
-    background-color:rgba(2,3,5,0.9);
-    z-index: 2;
+  .name1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: block;
+    z-index: -150;
+    animation: sideSlide 2s ease 2s forwards;
   }
-  
-  @keyframes sideSlide{
-    0%{
-      transform: translate(-100%,0);
-     
-    }
-    100%{
-      transform: translate(0,0);
-     
-    }
+  .name2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: -150;
+    animation: sideSlide 2s ease 3s forwards;
   }
-  
+  .descr {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    z-index: -150;
+    animation: sideSlide 2s ease 4s forwards;
+  }
+  .button {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 4px;
+    height: 30px;
+    width: 110px;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    z-index: -150;
+    animation: sideSlide 2s ease 5s forwards;
+  }
+  .pic {
+    height: 100%;
+    width: 50%;
+    background-image: url("../images/white_guy.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    animation: pic 2s ease forwards;
+    z-index: -99;
+  }
+}
+
+@keyframes pic {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+body {
+  background-color: rgba(2, 3, 5, 0.9);
+  z-index: 2;
+}
+
+@keyframes sideSlide {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

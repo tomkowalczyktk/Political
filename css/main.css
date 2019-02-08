@@ -21,6 +21,7 @@ body {
   font-family: "Poppins", sans-serif;
   width: 100%;
   background-color: #ffffff;
+  position: relative;
 }
 
 /*section.section--only {
