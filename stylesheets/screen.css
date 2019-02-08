@@ -605,13 +605,13 @@ body {
   left: unset;
   right: 100px;
 }
-/* line 27, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers {
+/* line 26, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers {
   align-content: center;
   margin: auto;
 }
-/* line 30, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers h3 {
+/* line 29, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers h3 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -620,15 +620,15 @@ body {
   display: block;
   text-align: center;
 }
-/* line 39, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .underscore {
+/* line 38, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .underscore {
   background-color: #ffffff;
   height: 2px;
   width: 80px;
   margin: auto;
 }
-/* line 46, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .contr output {
+/* line 45, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .contr output {
   width: 100%;
   font-size: 4rem;
   font-weight: 900;
@@ -638,16 +638,16 @@ body {
   line-height: 2;
   margin: auto;
 }
-/* line 57, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers p {
+/* line 56, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers p {
   font-size: 16px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
   display: block;
   text-align: center;
 }
-/* line 64, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer {
+/* line 63, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer {
   background-color: black;
   border: none;
   border-radius: 4px;
@@ -660,8 +660,8 @@ body {
   position: relative;
   z-index: 2;
 }
-/* line 76, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:before {
+/* line 75, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer:before {
   content: "";
   width: 0%;
   background-color: #ec1026;
@@ -673,8 +673,8 @@ body {
   transition: all 1.5s ease;
   z-index: -1;
 }
-/* line 88, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:hover:before {
+/* line 87, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .numbers .btn--volunteer:hover:before {
   background-color: #ec1026;
   width: 100%;
   transition: all 2s ease;
@@ -1075,7 +1075,7 @@ body {
   margin-bottom: 0px;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .section__main {
   background-image: url("../images/bg_top_photo1.jpg");
   min-height: 950px;
@@ -1088,56 +1088,56 @@ body {
 /* line 36, ../sass/screen.scss */
 .container-slider {
   height: 810px;
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   display: block;
   position: absolute;
-  top: 0%;
+  overflow: hidden;
+  bottom: 0;
   left: 10%;
-  margin: auto;
-  align-content: center;
-  align-items: center;
-  z-index: -99;
+  z-index: -150;
 }
-/* line 49, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .container-slider .name {
   position: absolute;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: white;
-  z-index: -150;
+  z-index: -160;
+  transform: translate(-100%, 0);
 }
 /* line 57, ../sass/screen.scss */
 .container-slider .name1 {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 20%;
+  left: 0;
   display: block;
-  z-index: -150;
+  z-index: -160;
   animation: sideSlide 2s ease 2s forwards;
 }
-/* line 65, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .container-slider .name2 {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  z-index: -150;
+  top: 30%;
+  left: 0;
+  z-index: -160;
   animation: sideSlide 2s ease 3s forwards;
 }
-/* line 72, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .container-slider .descr {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: white;
   position: absolute;
-  top: 60%;
-  left: 20%;
-  z-index: -150;
+  top: 40%;
+  left: 0;
+  z-index: -160;
   animation: sideSlide 2s ease 4s forwards;
+  transform: translate(-100%, 0);
 }
-/* line 83, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .container-slider .button {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
@@ -1151,12 +1151,12 @@ body {
   background-color: red;
   border-radius: 5px;
   position: absolute;
-  bottom: 30%;
-  left: 20%;
-  z-index: -150;
+  top: 55%;
+  left: 0;
+  z-index: -160;
   animation: sideSlide 2s ease 5s forwards;
 }
-/* line 101, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .container-slider .pic {
   height: 100%;
   width: 50%;
@@ -1172,7 +1172,7 @@ body {
   bottom: 0%;
   right: 0;
   animation: pic 2s ease forwards;
-  z-index: -99;
+  z-index: -140;
 }
 
 @keyframes pic {
@@ -1181,9 +1181,10 @@ body {
   }
   100% {
     transform: translate(0, 0);
+    opacity: 1;
   }
 }
-/* line 127, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 body {
   background-color: rgba(2, 3, 5, 0.9);
   z-index: 2;

@@ -32,18 +32,17 @@
   position: relative;
   z-index: -100;
 }
+
 .container-slider {
   height: 810px;
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   display: block;
   position: absolute;
-  top: 0%;
+  overflow: hidden;
+  bottom: 0;
   left: 10%;
-  margin: auto;
-  align-content: center;
-  align-items: center;
-  z-index: -99;
+  z-index: -150;
 
   .name {
     position: absolute;
@@ -51,34 +50,40 @@
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     color: white;
-    z-index: -150;
+    z-index: -160;
+    transform: translate(-100%, 0);
   }
+
   .name1 {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 20%;
+    left: 0;
     display: block;
-    z-index: -150;
+    z-index: -160;
     animation: sideSlide 2s ease 2s forwards;
   }
+
   .name2 {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    z-index: -150;
+    top: 30%;
+    left: 0;
+    z-index: -160;
     animation: sideSlide 2s ease 3s forwards;
   }
+
   .descr {
     font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 20%;
-    z-index: -150;
+    top: 40%;
+    left: 0;
+    z-index: -160;
     animation: sideSlide 2s ease 4s forwards;
+    transform: translate(-100%, 0);
   }
+
   .button {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
@@ -92,24 +97,28 @@
     background-color: red;
     border-radius: 5px;
     position: absolute;
-    bottom: 30%;
-    left: 20%;
-    z-index: -150;
+    top: 55%;
+    left: 0;
+    z-index: -160;
     animation: sideSlide 2s ease 5s forwards;
   }
+
   .pic {
     height: 100%;
     width: 50%;
     background-image: url("../images/white_guy.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
     border: 1px solid red;
     position: absolute;
     bottom: 0%;
     right: 0;
     animation: pic 2s ease forwards;
-    z-index: -99;
+    z-index: -140;
   }
 }
 
@@ -117,10 +126,13 @@
   0% {
     transform: translate(0, 100%);
   }
+
   100% {
     transform: translate(0, 0);
+    opacity: 1;
   }
 }
+
 body {
   background-color: rgba(2, 3, 5, 0.9);
   z-index: 2;
@@ -130,6 +142,7 @@ body {
   0% {
     transform: translate(-100%, 0);
   }
+
   100% {
     transform: translate(0, 0);
   }
