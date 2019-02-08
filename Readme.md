@@ -11,8 +11,8 @@ $ npm install
 
 ## compile sass
 
-$ compass watch src
+$ compass watch 
 
 ## run local server
 
-$ serve src
+$ serve
