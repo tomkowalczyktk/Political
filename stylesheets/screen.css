@@ -605,13 +605,13 @@ body {
   left: unset;
   right: 100px;
 }
-/* line 27, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers {
+/* line 26, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers {
   align-content: center;
   margin: auto;
 }
-/* line 30, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers h3 {
+/* line 29, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers h3 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -620,15 +620,15 @@ body {
   display: block;
   text-align: center;
 }
-/* line 39, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .underscore {
+/* line 38, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .underscore {
   background-color: #ffffff;
   height: 2px;
   width: 80px;
   margin: auto;
 }
-/* line 46, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .contr output {
+/* line 45, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .contr output {
   width: 100%;
   font-size: 4rem;
   font-weight: 900;
@@ -638,16 +638,16 @@ body {
   line-height: 2;
   margin: auto;
 }
-/* line 57, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers p {
+/* line 56, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers p {
   font-size: 16px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
   display: block;
   text-align: center;
 }
-/* line 64, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer {
+/* line 63, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer {
   background-color: black;
   border: none;
   border-radius: 4px;
@@ -660,8 +660,8 @@ body {
   position: relative;
   z-index: 2;
 }
-/* line 76, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:before {
+/* line 75, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer:before {
   content: "";
   width: 0%;
   background-color: #ec1026;
@@ -673,8 +673,8 @@ body {
   transition: all 1.5s ease;
   z-index: -1;
 }
-/* line 88, ../sass/components/_section__contribiusion.scss */
-.section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .col-sm-6 .offset-sm-3 .numbers .btn--volunteer:hover:before {
+/* line 87, ../sass/components/_section__contribiusion.scss */
+.section__contribiusion .container .row .numbers .btn--volunteer:active:before, .section__contribiusion .container .row .numbers .btn--volunteer:focus:before, .section__contribiusion .container .row .numbers .btn--volunteer:hover:before {
   background-color: #ec1026;
   width: 100%;
   transition: all 2s ease;
