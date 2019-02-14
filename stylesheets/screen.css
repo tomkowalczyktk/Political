@@ -1082,49 +1082,54 @@ body {
   width: 100%;
   background-position: center;
   position: relative;
-  z-index: -100;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .container-slider {
-  height: 810px;
-  width: 80%;
-  border: 1px solid black;
+  height: 840px;
+  width: 100%;
   display: block;
+  border: 1px solid black;
   position: absolute;
   overflow: hidden;
-  bottom: 0;
-  left: 10%;
-  z-index: -150;
+  top: 140px;
+  align-items: center;
+  padding-top: 1rem;
+  margin: auto;
 }
-/* line 47, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
+.container-slider .row-slider {
+  position: absolute;
+  width: 100%;
+  height: 810px;
+  display: flex;
+  margin: auto;
+}
+/* line 56, ../sass/screen.scss */
 .container-slider .name {
   position: absolute;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: white;
-  z-index: -160;
   transform: translate(-100%, 0);
 }
-/* line 57, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .container-slider .name1 {
   position: absolute;
   top: 20%;
   left: 0;
   display: block;
-  z-index: -160;
   animation: sideSlide 2s ease 2s forwards;
 }
-/* line 66, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .container-slider .name2 {
   position: absolute;
   top: 30%;
   left: 0;
-  z-index: -160;
   animation: sideSlide 2s ease 3s forwards;
 }
-/* line 74, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .container-slider .descr {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
@@ -1133,46 +1138,68 @@ body {
   position: absolute;
   top: 40%;
   left: 0;
-  z-index: -160;
   animation: sideSlide 2s ease 4s forwards;
   transform: translate(-100%, 0);
 }
-/* line 87, ../sass/screen.scss */
-.container-slider .button {
-  font-size: 18px;
+/* line 96, ../sass/screen.scss */
+.container-slider .btn.button {
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
   color: white;
   margin-top: 20px;
-  padding-top: 4px;
-  height: 30px;
-  width: 110px;
+  padding-top: 12px;
+  height: 50px;
+  width: 250px;
   background-color: red;
-  border-radius: 5px;
+  border-radius: 4px;
   position: absolute;
   top: 55%;
   left: 0;
-  z-index: -160;
+  transform: translate(-100%, 0);
   animation: sideSlide 2s ease 5s forwards;
 }
-/* line 106, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
+.container-slider .btn.button:before {
+  content: "";
+  width: 0%;
+  background-color: black;
+  color: white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  position: absolute;
+  transition: all 1.5s ease;
+  z-index: -1;
+}
+/* line 129, ../sass/screen.scss */
+.container-slider .btn.button:hover:before {
+  background-color: black;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  transition: all 1s ease;
+}
+/* line 139, ../sass/screen.scss */
 .container-slider .pic {
-  height: 100%;
-  width: 50%;
-  background-image: url("../images/white_guy.png");
+  height: auto;
+  width: 100%;
+  padding-top: 0.5rem;
+  margin-left: 0;
+  display: flex;
+  float: left;
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
-  /* Resize the background image to cover the entire container */
-  border: 1px solid red;
   position: absolute;
   bottom: 0%;
   right: 0;
   animation: pic 2s ease forwards;
-  z-index: -140;
 }
 
 @keyframes pic {
@@ -1181,10 +1208,9 @@ body {
   }
   100% {
     transform: translate(0, 0);
-    opacity: 1;
   }
 }
-/* line 136, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 body {
   background-color: rgba(2, 3, 5, 0.9);
   z-index: 2;
