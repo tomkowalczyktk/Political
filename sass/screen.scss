@@ -24,8 +24,47 @@
 @import "components/section-news";
 @import "components/section-footer";
 
+.slider__arrow-left{
+  color:white;
+  background-color:rgba(2, 3, 5, 0.3);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  text-align:center;
+  text-justify: distribute;
+  font-size: 2em;
+  padding-top: 0.25em;
+  &:hover{
+    cursor: pointer;
+    background-color:rgba(2, 3, 5, 0.5);
+  }
+}
+.slider__arrow-right{
+  color:white;
+  background-color:rgba(2, 3, 5, 0.3);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  text-align:center;
+  text-justify: distribute;
+  font-size: 2em;
+  padding-top: 0.25em;
+  left: unset;
+  &:hover{
+    cursor: pointer;
+    background-color:rgba(2, 3, 5, 0.5);
+
+  }
+}
+
 .section__main {
-  background-image: url("../images/bg_top_photo1.jpg");
+  //background-image: url("../images/bg_top_photo1.jpg");
   min-height: 950px;
   width: 100%;
   background-position: center;
@@ -36,23 +75,25 @@
   height: 840px;
   width: 100%;
   display: block;
-  border: 1px solid black;
   position: absolute;
   overflow: hidden;
   top: 140px;
-  //left: 140px;
+  left: 15%;
   align-items: center;
+  padding: 0;
   padding-top: 1rem;
   margin: auto;
-  
+
   
   .row-slider{
     position: absolute;
     width: 100%;
     height: 810px;
-    display: flex;
+    display:none;
     margin: auto;
+    
   }
+ 
   .name {
     position: absolute;
     font-size: 50px;
@@ -104,12 +145,12 @@
     height: 50px;
     width: 250px;
     background-color: red;
+    border: none;
     border-radius: 4px;
     position: absolute;
     top: 55%;
     left: 0;
     
-
     transform: translate(-100%, 0);
     animation: sideSlide 2s ease 5s forwards;
     
@@ -122,6 +163,7 @@
       right: 0;
       bottom: 0;
       border-radius: 4px;
+      border:none;
       position: absolute;
       transition: all 1.5s ease;
       z-index: -1;
@@ -181,4 +223,7 @@ body {
   100% {
     transform: translate(0, 0);
   }
+}
+.row-slider.row-slider--active{
+  display: flex;
 }
