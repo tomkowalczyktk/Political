@@ -1,16 +1,16 @@
-
-(function ($) {
-
+(function($) {
 
 
-  $.fn.slider = function (options) {
+
+  $.fn.slider = function(options = {}) {
     const $container = $(this);
     const $leftArrow = $('<div class="slider__arrow-left"><</div>');
     const $rightArrow = $('<div class="slider__arrow-right">></div>');
     const $banerBg = $('.section__main');
 
+    const { onSlide, data } = options;
 
-    const $slides = options.data.map(item => {
+    const $slides = data.map(item => {
       const baner = `
       <div class="row row-slider">
 
@@ -25,46 +25,40 @@
         </div>
 
       </div>
-      <script>
-        $('.section .section__main').css('background-image', 'url(${item.image})');
-      </script>
       `;
       return $(baner);
     });
-    let $activeSlide = $slides[0];
+    let index = 0;
+    let $activeSlide = $slides[index];
     $activeSlide.addClass('row-slider--active');
 
     function next() {
-      console.log('slides', $slides);
       const $next = $activeSlide.next(".row-slider");
-      console.log('active', $activeSlide);
-      console.log('next', $next);
       if ($next.length) {
         $activeSlide.removeClass('row-slider--active');
         $next.addClass('row-slider--active');
         $activeSlide = $next;
+        index = $activeSlide.index();
+        onSlide && onSlide(data[index]);
       }
     }
 
     function prev() {
-      console.log('slides', $slides);
       const $prev = $activeSlide.prev(".row-slider");
-      console.log('active', $activeSlide);
-      console.log('prev', $prev);
-      console.log('prev length', $prev.length)
-      // if ($prev.length) {
-      console.log('test');
+      
       $activeSlide.removeClass('row-slider--active');
       $prev.addClass('row-slider--active');
       $activeSlide = $prev;
-      // }
+      index = $activeSlide.index();
+      onSlide && onSlide(data[index]);
+
     }
 
-    $leftArrow.on('click', function () {
+    $leftArrow.on('click', function() {
       prev();
     });
 
-    $rightArrow.on('click', function () {
+    $rightArrow.on('click', function() {
       next();
     });
 

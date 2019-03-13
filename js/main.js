@@ -1,4 +1,4 @@
-$(function () {
+$(function() {
   const content = [{
     name: 'Steve',
     surename: 'Prommising',
@@ -23,5 +23,10 @@ $(function () {
       react: true
     }
   }];
-  $(".container-slider").slider({ data: content });
+  $(".container-slider").slider({
+    data: content,
+    onSlide: (item) => {
+       $('.section.section__main').css('background-image', `url(${item.image})`);
+    }
+  });
 })
